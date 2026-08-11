@@ -1,0 +1,502 @@
+{
+  "Meta": {
+    "title": "Escuela Bilingüe Santo Domingo Savio. Formación integral para el futuro",
+    "description": "Colegio bilingüe católico salesiano en Don Bosco, Panamá. Formación integral con cariño, fe y excelencia académica, desde Prekínder hasta Bachillerato."
+  },
+  "Nav": {
+    "inicio": "Inicio",
+    "nosotros": "Nosotros",
+    "oferta": "Oferta Académica",
+    "vida": "Vida Escolar",
+    "admisiones": "Admisiones y FAQ",
+    "contacto": "Contacto",
+    "plataforma": "Plataforma Académica"
+  },
+  "Pages": {
+    "about": "Nosotros",
+    "academics": "Oferta Académica",
+    "admissions": "Admisiones y FAQ",
+    "schoolLife": "Vida Escolar",
+    "contact": "Contacto"
+  },
+  "Common": {
+    "ctaAdmisiones": "Conoce nuestras admisiones",
+    "ctaOferta": "Oferta académica",
+    "conocerHistoria": "Conoce nuestra historia",
+    "verGaleria": "Ver galería",
+    "menu": "Menú",
+    "verMas": "Ver más"
+  },
+  "Footer": {
+    "plataformaEyebrow": "Portal Académica",
+    "plataformaTitle": "Consulta calificaciones y seguimiento académico",
+    "plataformaText": "Padres y alumnos pueden ingresar a la Plataforma Académica para revisar notas, boletines y comunicados.",
+    "plataformaCta": "Entrar a Plataforma Académica",
+    "colNavTitle": "Navegación",
+    "colContactTitle": "Contacto",
+    "colInfoTitle": "Información",
+    "infoAdmision": "Proceso de Admisión",
+    "infoTarifario": "Tarifario 2027",
+    "infoPrivacidad": "Aviso de Privacidad",
+    "infoMenores": "Protección de Datos de Menores",
+    "legal": "Cumplimiento de la Ley 81 de Protección de Datos Personales de la República de Panamá.",
+    "tagline": "Escuela bilingüe católica salesiana en Don Bosco, Panamá. Formación integral bajo el Sistema Preventivo, desde 1987.",
+    "madeIn": "Hecho con cariño en Don Bosco, Panamá",
+    "rights": "Todos los derechos reservados."
+  },
+  "Home": {
+    "hero": {
+      "badge": "Una extensión del hogar",
+      "titleTop": "Aquí no inscribimos estudiantes,",
+      "titleHighlight": "matriculamos familias",
+      "subtitle": "Desde 1987 acompañamos a cada niño y niña con cariño, fe y excelencia académica. Una escuela bilingüe donde tu familia encuentra su segundo hogar en Don Bosco.",
+      "primaryCta": "Conoce nuestra comunidad",
+      "secondaryCta": "Oferta académica",
+      "stats": [
+        { "value": "1987", "label": "Al servicio de las familias" },
+        { "value": "766", "label": "Estudiantes" },
+        { "value": "5", "label": "Niveles" },
+        { "value": "100%", "label": "Bilingüe" }
+      ]
+    },
+    "intro": {
+      "eyebrow": "Nuestra comunidad desde 1987",
+      "title": "Un hogar donde crecer con propósito",
+      "body": "En la Escuela Bilingüe Santo Domingo Savio creemos que educar es acompañar. Caminamos junto a cada familia para que sus hijos crezcan con <gold>amor</gold>, <gold>fe</gold> y <gold>alegría</gold>, descubriendo sus talentos en un ambiente cálido y seguro.",
+      "caption": "Estudiantes en clase"
+    },
+    "mission": {
+      "eyebrow": "Formación en valores",
+      "title": "Educación con alma salesiana",
+      "body": "Inspirados en el Sistema Preventivo de Don Bosco, ponemos en el centro el <gold>amor al prójimo</gold>, la <gold>paz</gold> y la <gold>justicia social</gold>. No formamos solo estudiantes: formamos personas íntegras, listas para servir.",
+      "pillars": [
+        { "n": "01", "title": "Fe y espíritu", "text": "Una formación cristiana que acompaña el crecimiento humano de cada estudiante." },
+        { "n": "02", "title": "Cariño y prevención", "text": "El Sistema Preventivo guía con cercanía, diálogo y acompañamiento constante." },
+        { "n": "03", "title": "Excelencia académica", "text": "Plan bilingüe riguroso con inglés intensivo, ciencias, robótica y comercio." },
+        { "n": "04", "title": "Familia y comunidad", "text": "La escuela como extensión del hogar, en alianza permanente con las familias." }
+      ]
+    },
+    "journey": {
+      "eyebrow": "El viaje de tu hijo",
+      "title": "Desde Prekínder hasta graduarse con propósito",
+      "intro": "Un acompañamiento continuo en cada etapa, con la mirada puesta en la persona completa.",
+      "steps": [
+        { "age": "Prekínder", "title": "Primeros pasos", "text": "Cariño, juego y descubrimiento. Donde nace el amor por aprender.", "caption": "Prekínder y Kínder" },
+        { "age": "Primaria", "title": "Raíces firmes", "text": "Lectura, inglés intensivo y valores. Bases para toda la vida.", "caption": "Primaria, 1° a 6°" },
+        { "age": "Premedia", "title": "Descubrir talentos", "text": "Ciencias, comercio y carácter. Cada estudiante encuentra su voz.", "caption": "Premedia, 7° a 9°" },
+        { "age": "Bachillerato", "title": "Propósito y futuro", "text": "Ciencias o Comercio Bilingüe. Listos para la universidad y la vida.", "caption": "Bachillerato, 10° a 12°" }
+      ]
+    },
+    "history": {
+      "eyebrow": "Nuestra historia",
+      "titleA": "Cuatro décadas",
+      "titleHi": "formando futuro",
+      "text": "Desde la Capilla María Auxiliadora en 1984 hasta consolidarnos como un colegio bilingüe de referencia en Don Bosco, con {students} estudiantes bajo la dirección del {director}.",
+      "cta": "Conoce nuestra historia",
+      "items": [
+        { "year": "1984", "title": "Capilla María Auxiliadora", "text": "Los inicios de la obra educativa están ligados a la Capilla María Auxiliadora." },
+        { "year": "1987", "title": "Nace la escuela", "text": "El Padre Marino Morlin abre las clases en salones parroquiales con 15 niños." },
+        { "year": "1995", "title": "Permiso Permanente", "text": "El 3 de julio de 1995 se obtiene el permiso permanente de MEDUCA." },
+        { "year": "Hoy", "title": "Referencia en Don Bosco", "text": "766 estudiantes y bachilleratos consolidados bajo el Mgtr. Nelvin Babacaris." }
+      ]
+    },
+    "accreditations": {
+      "items": ["Avalado por MEDUCA", "Arquidiócesis de Panamá", "Sistema Preventivo de Don Bosco", "Desde 1987", "766 estudiantes"]
+    },
+    "testimonials": {
+      "eyebrow": "Voces de nuestras familias",
+      "title": "Lo que vivimos en Santo Domingo Savio",
+      "items": [
+        { "quote": "Mi hijo llega feliz cada día. Siento que la escuela es una extensión de nuestra familia.", "name": "María", "role": "Madre de familia, Primaria" },
+        { "quote": "La formación bilingüe y los valores le dieron a mi hija una base increíble para la vida.", "name": "Carlos", "role": "Padre, Bachillerato" },
+        { "quote": "Aquí encontré amigos para toda la vida y maestros que de verdad se preocupan por uno.", "name": "Andrea", "role": "Exalumna" }
+      ]
+    }
+  },
+  "About": {
+    "hero": {
+      "eyebrow": "Quiénes somos",
+      "title": "Una comunidad que educa con el corazón",
+      "intro": "Desde 1987 somos una extensión del hogar para cientos de familias de Don Bosco. Formamos personas íntegras con excelencia académica, fe y cariño."
+    },
+    "mission": {
+      "eyebrow": "Misión",
+      "title": "Formar para la vida y el servicio",
+      "body": "Brindar una educación bilingüe integral, inspirada en el Sistema Preventivo de Don Bosco, que desarrolle las dimensiones <gold>humana</gold>, <gold>espiritual</gold> y <gold>académica</gold> de cada estudiante, en alianza con la familia."
+    },
+    "vision": {
+      "eyebrow": "Visión",
+      "title": "Referente de educación bilingüe con valores",
+      "body": "Aspiramos a ser una comunidad educativa reconocida por formar ciudadanos íntegros, competentes y comprometidos con la <gold>justicia social</gold> y el bien común."
+    },
+    "model": {
+      "eyebrow": "Modelo pedagógico",
+      "title": "El Sistema Preventivo",
+      "intro": "Siguiendo a Don Bosco, educamos desde tres pilares que previenen y acompañan:",
+      "pillars": [
+        { "n": "01", "t": "Razón", "d": "Acompañamos con sentido común, cercanía y diálogo." },
+        { "n": "02", "t": "Religión", "d": "Cultivamos la fe y el encuentro con Dios cada día." },
+        { "n": "03", "t": "Amor", "d": "Queremos a cada estudiante como a un propio hijo." }
+      ]
+    },
+    "director": {
+      "eyebrow": "Nuestra dirección",
+      "title": "Mgtr. Nelvin Babacaris",
+      "body": "Bajo su dirección, el plantel acompaña hoy a 766 estudiantes en su camino de Prekínder a Bachillerato.",
+      "quote": "Educar es cosa del corazón."
+    },
+    "timeline": {
+      "eyebrow": "Nuestra historia",
+      "title": "Cuatro décadas de servicio",
+      "intro": "Un camino que comenzó en una capilla y hoy es un colegio bilingüe de referencia en Don Bosco.",
+      "items": [
+        { "year": "1984", "title": "Capilla María Auxiliadora", "text": "Los inicios ligados a la Capilla María Auxiliadora." },
+        { "year": "1987", "title": "Nace la escuela", "text": "El Padre Marino Morlin abre las clases con 15 niños en Prekínder y Kínder." },
+        { "year": "1989", "title": "Permiso provisional", "text": "El 1 de julio de 1989 se otorga el permiso provisional." },
+        { "year": "1995", "title": "Permiso Permanente MEDUCA", "text": "El 3 de julio de 1995, bajo la Arquidiócesis de Panamá y el P. Jorge Rivera Rodríguez." },
+        { "year": "Hoy", "title": "Centro bilingüe de referencia", "text": "766 estudiantes y bachilleratos consolidados bajo el Mgtr. Nelvin Babacaris." }
+      ]
+    }
+  },
+  "Academics": {
+    "hero": {
+      "eyebrow": "Oferta académica",
+      "title": "Un plan bilingüe para cada etapa",
+      "intro": "Desde Prekínder hasta Bachillerato, con inglés intensivo, ciencias, robótica y comercio."
+    },
+    "explorer": {
+      "eyebrow": "Explorador de carga horaria",
+      "title": "Conoce cada nivel y sus asignaturas",
+      "intro": "Horas semanales y materias por nivel, para que tu familia sepa exactamente qué aprenderá."
+    },
+    "levels": [
+      {
+        "id": "pre-escolar",
+        "name": "Preescolar",
+        "grades": "Prekínder y Kínder",
+        "hours": "36 h por semana",
+        "description": "Acompañamos los primeros años con un enfoque en el desarrollo socioafectivo, cognitivo y psicomotor.",
+        "tags": ["Bilingüe", "Robótica", "Inteligencia Emocional"],
+        "areas": [
+          { "name": "Área socioafectiva", "subjects": ["Folklore", "Religión", "Misa", "Inteligencia Emocional"] },
+          { "name": "Área cognitiva y lingüística", "subjects": ["Inglés (6h)", "Lenguaje (5h)", "Matemáticas (5h)", "Informática y Robótica (2h)"] },
+          { "name": "Área psicomotora", "subjects": ["Desarrollo motriz", "Juego dirigido"] }
+        ]
+      },
+      {
+        "id": "primaria",
+        "name": "Primaria",
+        "grades": "1° a 6°",
+        "hours": "40 h por semana",
+        "description": "Bases sólidas con reforzamiento intensivo de inglés y formación en valores a lo largo de los seis grados.",
+        "tags": ["Inglés intensivo 10h", "STEM", "Arte y Folklore"],
+        "areas": [
+          { "name": "Núcleo académico", "subjects": ["Inglés (10h)", "Matemáticas (5 a 6h)", "Informática", "Robótica"] },
+          { "name": "Formación integral", "subjects": ["Folklore", "Formación Espiritual", "Expresiones Artísticas"] }
+        ]
+      },
+      {
+        "id": "pre-media",
+        "name": "Premedia",
+        "grades": "7° a 9°",
+        "hours": "45 h por semana",
+        "description": "Preparación intermedia que introduce al comercio y consolida el pensamiento científico y ciudadano.",
+        "tags": ["Introducción al Comercio", "Ciencias", "Inglés 10h"],
+        "areas": [
+          { "name": "Especialización", "subjects": ["Introducción al Comercio (8°)", "Introducción a la Contabilidad (9°)"] },
+          { "name": "Formación general", "subjects": ["Ciencias", "Geografía", "Historia", "Cívica", "Inglés (10h)"] }
+        ]
+      },
+      {
+        "id": "bachillerato-comercio",
+        "name": "Bachillerato en Comercio Bilingüe",
+        "grades": "10° a 12°",
+        "meta": "270 h totales · 34 asignaturas",
+        "description": "Formación especializada bilingüe orientada al mundo empresarial y la gestión, con práctica profesional.",
+        "tags": ["Bilingüe", "Contabilidad", "Management", "Marketing"],
+        "areas": [
+          { "name": "Asignaturas destacadas", "subjects": ["Computer Business Application", "Business Accounting II y III", "Business Management y Human Resources", "Office Management", "Mercadotecnia", "Professional Practice"] }
+        ]
+      },
+      {
+        "id": "bachillerato-ciencias",
+        "name": "Bachillerato en Ciencias",
+        "grades": "10° a 12°",
+        "meta": "131 h totales · 33 asignaturas",
+        "description": "Enfoque científico riguroso que prepara para la universidad y los retos del futuro.",
+        "tags": ["Ciencias", "Tecnología", "Gestión Empresarial"],
+        "areas": [
+          { "name": "Núcleo científico", "subjects": ["Biología (5h/sem)", "Química (5h/sem)", "Física (5h/sem)", "Matemáticas (5h/sem)", "Tecnología de la Información", "Gestión Empresarial"] }
+        ]
+      }
+    ]
+  },
+  "Admissions": {
+    "hero": {
+      "eyebrow": "Admisiones",
+      "title": "Un nuevo hogar para tu familia",
+      "intro": "Te acompañamos en cada paso del proceso. Aquí cada familia es bienvenida."
+    },
+    "wizard": {
+      "eyebrow": "Proceso de admisión",
+      "title": "Cuatro pasos hacia la matrícula",
+      "intro": "Sencillo, claro y cercano.",
+      "steps": [
+        { "step": "01", "title": "Requisitos académicos y disciplinarios", "description": "Verificamos el expediente del aspirante.", "details": ["Promedio mínimo de 4.0 en Primaria", "Promedio mínimo de 3.5 por materia en Secundaria", "Expeditivo disciplinario impecable, sin marcas de R o X"] },
+        { "step": "02", "title": "Prueba psicológica y de conocimientos", "description": "Solicita el pago por la Banca en Línea de Banco General.", "details": ["$50.00 para Preescolar y Primaria", "$60.00 para Secundaria", "Nota mínima de 3.0 en el examen académico", "Nota mínima de 85 en el test psicológico"] },
+        { "step": "03", "title": "Entrega de resultados", "description": "Te comunicamos los resultados de manera oportuna.", "details": ["Resultados en 3 días hábiles", "Notificación vía telefónica"] },
+        { "step": "04", "title": "Formalización de la matrícula", "description": "Una vez aprobado, formaliza en nuestras instalaciones.", "details": ["5 días hábiles para formalizar", "Atención de lunes a viernes, de 8:00 a.m. a 2:00 p.m."] }
+      ]
+    },
+    "pricing": {
+      "eyebrow": "Tarifario 2027",
+      "title": "Costos claros y transparentes",
+      "intro": "Estructura de costos aprobados para el año escolar 2027.",
+      "nivel": "Nivel",
+      "inscripcion": "Inscripción",
+      "mantenimiento": "Mantenimiento y laboratorios",
+      "total": "Total inscripción",
+      "mensualidad": "Mensualidad",
+      "rows": [
+        { "nivel": "Prekínder", "inscripcion": "$125.00", "mantenimiento": "$110.00", "total": "$235.00", "mensualidad": "$145.00" },
+        { "nivel": "Kínder", "inscripcion": "$125.00", "mantenimiento": "$130.00", "total": "$255.00", "mensualidad": "$145.00", "nota": "Incluye Laboratorio de Informática" },
+        { "nivel": "1° y 2° Grado", "inscripcion": "$130.00", "mantenimiento": "$150.00", "total": "$280.00", "mensualidad": "$150.00", "nota": "Incluye Laboratorio de Lenguas" },
+        { "nivel": "3° a 6° Grado", "inscripcion": "$135.00", "mantenimiento": "$150.00", "total": "$285.00", "mensualidad": "$155.00" },
+        { "nivel": "7° a 9°, Premedia", "inscripcion": "$145.00", "mantenimiento": "$160.00", "total": "$305.00", "mensualidad": "$165.00", "nota": "Incluye Laboratorio de Ciencias" },
+        { "nivel": "10° a 12°, Ciencias", "inscripcion": "$154.00", "mantenimiento": "$170.00", "total": "$324.00", "mensualidad": "$195.00", "nota": "Laboratorio de Ciencias $20 y Lenguas $20" },
+        { "nivel": "10° a 12°, Comercio", "inscripcion": "$154.00", "mantenimiento": "$170.00", "total": "$324.00", "mensualidad": "$195.00", "nota": "Laboratorio de Informática Comercial $20 y Lenguas $20" }
+      ],
+      "gastosTitle": "Gastos fijos generales incluidos",
+      "gastos": [
+        { "item": "Mantenimiento", "monto": "$20" },
+        { "item": "Gabinete Psicopedagógico", "monto": "$5" },
+        { "item": "Seguro de Accidentes", "monto": "$30" },
+        { "item": "Enfermería", "monto": "$5" },
+        { "item": "Carnet Estudiantil", "monto": "$5" },
+        { "item": "Material Didáctico", "monto": "$20" },
+        { "item": "Plataforma Académica", "monto": "$25" }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Preguntas frecuentes",
+      "title": "Resolvemos tus dudas",
+      "intro": "Lo que las familias más quieren saber.",
+      "items": [
+        { "q": "¿Cuál es el promedio mínimo para postular?", "a": "Se requiere un promedio mínimo de 4.0 en Primaria y de 3.5 por materia en Secundaria, además de un expeditivo disciplinario impecable." },
+        { "q": "¿Cuánto cuesta la prueba de admisión y cómo se paga?", "a": "Cuesta $50.00 para Preescolar y Primaria, y $60.00 para Secundaria. El pago se solicita por la Banca en Línea de Banco General." },
+        { "q": "¿Qué notas debo obtener en las pruebas?", "a": "La nota mínima es 3.0 en el examen académico y 85 en el test psicológico." },
+        { "q": "¿En cuánto tiempo recibo los resultados?", "a": "Los resultados se comunican en 3 días hábiles, vía telefónica." },
+        { "q": "¿Cuánto tiempo tengo para formalizar la matrícula?", "a": "Una vez entregados los resultados, se cuentan con 5 días hábiles para formalizar." },
+        { "q": "¿Qué horario de atención tienen para admisiones?", "a": "Atendemos de lunes a viernes, de 8:00 a.m. a 2:00 p.m., en Calle 5ta, Don Bosco." },
+        { "q": "¿Desde qué edad aceptan estudiantes?", "a": "Atendemos desde Prekínder y Kínder hasta Bachillerato, con formación bilingüe en todos los niveles." },
+        { "q": "¿Cómo consulto las calificaciones?", "a": "A través de la Plataforma Académica, accesible desde el botón Plataforma Académica del menú." }
+      ]
+    }
+  },
+  "SchoolLife": {
+    "hero": {
+      "eyebrow": "Vida escolar",
+      "title": "Momentos que nos hacen familia",
+      "intro": "La vida diaria, las amistades, la fe y las celebraciones que dan vida a nuestro colegio."
+    },
+    "gallery": {
+      "eyebrow": "Galería",
+      "title": "Un día en Santo Domingo Savio",
+      "intro": "Espacios, aprendizajes y encuentros.",
+      "items": [
+        { "caption": "Instalaciones" },
+        { "caption": "Aulas" },
+        { "caption": "Deportes" },
+        { "caption": "Vida espiritual" },
+        { "caption": "Arte y cultura" },
+        { "caption": "Graduación" }
+      ]
+    },
+    "video": {
+      "eyebrow": "Recorrido",
+      "title": "Conoce nuestro colegio",
+      "intro": "Un recorrido por la vida escolar.",
+      "caption": "Video institucional"
+    }
+  },
+  "Privacy": {
+    "hero": {
+      "eyebrow": "Aviso de Privacidad",
+      "title": "Aviso de Privacidad y Protección de Datos Personales",
+      "intro": "En cumplimiento de la Ley 81 de Protección de Datos Personales de la República de Panamá, detallamos cómo recopilamos, utilizamos y protegemos tu información."
+    },
+    "lastUpdated": "Última actualización",
+    "effectiveDate": "11 de agosto de 2026",
+    "sections": [
+      {
+        "title": "1. Identidad y domicilio del responsable",
+        "content": [
+          "La Escuela Bilingüe Santo Domingo Savio, con domicilio en Calle 5ta, Don Bosco, Panamá, es el responsable del tratamiento de los datos personales que recabamos a través de este sitio web, de nuestras instalaciones físicas y de cualquier otro medio oficial de comunicación.",
+          "Nuestra institución está debidamente acreditada por el Ministerio de Educación de Panamá (MEDUCA) y opera bajo la tutela de la Arquidiócesis de Panamá, rigiéndose por los principios del Sistema Preventivo de Don Bosco y la legislación panameña vigente."
+        ]
+      },
+      {
+        "title": "2. Datos personales que recopilamos",
+        "content": [
+          "En el ejercicio de nuestras funciones educativas y administrativas, podemos recopilar las siguientes categorías de datos personales:",
+          "Datos de identificación: nombre completo, fecha de nacimiento, número de cédula o pasaporte, nacionalidad, género.",
+          "Datos de contacto: dirección de domicilio, números de teléfono fijo y móvil, dirección de correo electrónico personal e institucional.",
+          "Datos académicos: historial académico, calificaciones, boletines, certificados de estudios previos, resultados de pruebas de admisión y psicológicas.",
+          "Datos familiares: información de padres, madres o acudientes legales, incluyendo nombres, ocupaciones, datos de contacto, estado civil y relaciones familiares pertinentes para la atención del estudiante.",
+          "Datos de salud: información médica relevante para la seguridad y bienestar del estudiante durante su permanencia en la institución, incluyendo alergias, condiciones médicas preexistentes, medicamentos recetados y contactos de emergencia.",
+          "Datos financieros: información relacionada con pagos de matrícula, mensualidades, pruebas de admisión y otros servicios educativos.",
+          "Datos de navegación: dirección IP, tipo de navegador, páginas visitadas, tiempo de permanencia y otra información de uso recopilada mediante cookies y tecnologías similares cuando se utiliza nuestro sitio web."
+        ]
+      },
+      {
+        "title": "3. Finalidades del tratamiento",
+        "content": [
+          "Los datos personales que recopilamos son utilizados exclusivamente para las siguientes finalidades legítimas:",
+          "Prestación del servicio educativo: gestión de matrículas, administración académica, comunicación con padres y acudientes, expedición de certificados y documentos oficiales, y seguimiento del desempeño académico y formativo de cada estudiante.",
+          "Proceso de admisión: evaluación de solicitudes, aplicación de pruebas psicológicas y académicas, comunicación de resultados y formalización de matrículas.",
+          "Comunicación institucional: envío de circulares, boletines, calendarios escolares, citaciones a reuniones, notificaciones de eventos y otra información relevante para la comunidad educativa.",
+          "Seguridad y bienestar: atención médica básica y de emergencia en la enfermería escolar, gestión del seguro de accidentes estudiantiles, y comunicación con servicios de emergencia cuando sea necesario.",
+          "Cumplimiento legal: atención de requerimientos de autoridades administrativas y judiciales competentes, en los términos establecidos por la legislación panameña.",
+          "Mejora del sitio web: análisis estadístico anónimo del uso de nuestra página web para optimizar la experiencia de navegación."
+        ]
+      },
+      {
+        "title": "4. Base legal del tratamiento",
+        "content": [
+          "El tratamiento de datos personales que realiza la Escuela Bilingüe Santo Domingo Savio se fundamenta en las siguientes bases legales establecidas en la Ley 81 de Protección de Datos Personales de Panamá:",
+          "Consentimiento informado del titular de los datos o de sus representantes legales, en el caso de menores de edad, otorgado al momento de la matrícula y durante la relación educativa.",
+          "Ejecución de la relación contractual derivada de la prestación de servicios educativos.",
+          "Cumplimiento de obligaciones legales aplicables a las instituciones educativas reconocidas por el MEDUCA.",
+          "Interés legítimo de la institución para garantizar la seguridad, el bienestar y la adecuada formación de los estudiantes, así como para comunicarse con las familias que integran nuestra comunidad educativa.",
+          "En el caso de datos de salud, se requiere consentimiento explícito adicional de los padres o acudientes, en estricto cumplimiento del artículo 13 de la Ley 81."
+        ]
+      },
+      {
+        "title": "5. Datos de menores de edad",
+        "content": [
+          "Reconocemos la especial protección que merecen los datos personales de niños, niñas y adolescentes. En cumplimiento del artículo 20 de la Ley 81 y las disposiciones sobre protección de menores:",
+          "Todo tratamiento de datos de menores de edad requiere el consentimiento verificable de sus padres, madres o acudientes legales. Dicho consentimiento se obtiene al momento de la matrícula y puede ser revocado en cualquier momento mediante solicitud escrita.",
+          "Los datos de los estudiantes son tratados con estricta confidencialidad y solo son accesibles al personal docente y administrativo que requiere dicha información para el cumplimiento de sus funciones.",
+          "No compartimos datos de menores con terceros sin el consentimiento previo y explícito de sus representantes legales, salvo en los casos previstos por la ley (emergencias médicas, requerimientos judiciales, etc.).",
+          "Las fotografías y videos de actividades escolares que incluyan a estudiantes solo serán publicados en nuestros canales oficiales (sitio web, redes sociales, materiales impresos) con la autorización previa otorgada por los padres o acudientes mediante el formulario de consentimiento de imagen correspondiente.",
+          "Los padres o acudientes pueden ejercer en todo momento los derechos ARCO (Acceso, Rectificación, Cancelación y Oposición) sobre los datos de los menores a su cargo."
+        ]
+      },
+      {
+        "title": "6. Transferencia de datos",
+        "content": [
+          "La Escuela Bilingüe Santo Domingo Savio no comercializa, vende ni alquila datos personales a terceros bajo ninguna circunstancia. Las únicas transferencias de datos que realizamos son las estrictamente necesarias para:",
+          "Cumplir con obligaciones legales ante el Ministerio de Educación (MEDUCA) y otras autoridades competentes.",
+          "Gestionar servicios contratados a terceros que actúan como encargados del tratamiento bajo estrictos acuerdos de confidencialidad, tales como la plataforma de gestión académica en línea, servicios de almacenamiento en la nube y proveedores de servicios de correo electrónico.",
+          "Atender emergencias médicas, en cuyo caso se compartirá exclusivamente la información de salud necesaria con el personal médico tratante.",
+          "Cualquier otra transferencia requerirá el consentimiento previo, informado y por escrito del titular de los datos o de sus representantes legales."
+        ]
+      },
+      {
+        "title": "7. Medidas de seguridad",
+        "content": [
+          "Implementamos medidas técnicas, administrativas y físicas para proteger los datos personales contra acceso no autorizado, pérdida, alteración o destrucción. Entre ellas:",
+          "Acceso restringido a expedientes físicos y digitales, limitado exclusivamente al personal autorizado que requiere dicha información para el desempeño de sus funciones.",
+          "Uso de protocolos de cifrado (HTTPS/TLS) para toda comunicación entre el navegador del usuario y nuestro sitio web.",
+          "Almacenamiento de datos digitales en servidores seguros con controles de acceso, firewalls y monitoreo continuo.",
+          "Capacitación periódica de nuestro personal sobre la Ley 81 de Protección de Datos Personales y las mejores prácticas en manejo de información confidencial.",
+          "Contratos de confidencialidad con todo el personal docente, administrativo y proveedores de servicios que tengan acceso a datos personales.",
+          "Procedimientos documentados para la notificación de brechas de seguridad a los titulares y a la autoridad de protección de datos, en cumplimiento del artículo 34 de la Ley 81."
+        ]
+      },
+      {
+        "title": "8. Plazos de conservación",
+        "content": [
+          "Conservamos los datos personales únicamente durante el tiempo necesario para cumplir con las finalidades para las que fueron recopilados y para atender cualquier obligación legal aplicable:",
+          "Expedientes académicos: se conservan de manera permanente por su valor histórico y legal, en cumplimiento de las disposiciones del MEDUCA para instituciones educativas.",
+          "Datos de contacto y comunicación: se conservan mientras dure la relación educativa y hasta dos años después de finalizada, salvo que el titular solicite su supresión antes.",
+          "Datos financieros: se conservan durante el plazo de prescripción de obligaciones fiscales y comerciales establecido por la legislación panameña (generalmente 5 años).",
+          "Datos de navegación y cookies: se conservan por un máximo de 13 meses desde su recopilación.",
+          "Una vez vencidos los plazos de conservación, los datos son eliminados de manera segura o anonimizados para fines estadísticos."
+        ]
+      },
+      {
+        "title": "9. Derechos ARCO (Acceso, Rectificación, Cancelación y Oposición)",
+        "content": [
+          "La Ley 81 de Protección de Datos Personales de la República de Panamá otorga a los titulares de los datos los siguientes derechos, que pueden ejercer en cualquier momento:",
+          "Derecho de Acceso: conocer qué datos personales tenemos registrados sobre usted o el menor a su cargo, así como las finalidades del tratamiento.",
+          "Derecho de Rectificación: solicitar la corrección de datos personales que sean inexactos, incompletos o desactualizados.",
+          "Derecho de Cancelación: solicitar la eliminación de datos personales cuando ya no sean necesarios para las finalidades para las que fueron recopilados, siempre que no exista una obligación legal que requiera su conservación.",
+          "Derecho de Oposición: oponerse al tratamiento de datos personales para finalidades específicas, como el envío de comunicaciones informativas no esenciales.",
+          "Derecho de Portabilidad: solicitar una copia de los datos personales en un formato estructurado y de uso común.",
+          "Para ejercer cualquiera de estos derechos, el titular o su representante legal debe presentar una solicitud por escrito en nuestras instalaciones (Calle 5ta, Don Bosco, Panamá, de lunes a viernes de 8:00 a.m. a 2:00 p.m.) o mediante correo electrónico dirigido a nuestra dirección institucional, acompañando copia de su cédula de identidad o pasaporte. La solicitud será atendida en un plazo máximo de 10 días hábiles, conforme a lo establecido en la Ley 81."
+        ]
+      },
+      {
+        "title": "10. Uso de cookies y tecnologías similares",
+        "content": [
+          "Nuestro sitio web utiliza cookies propias y de terceros para mejorar la experiencia de navegación, analizar el tráfico de forma anónima y recordar preferencias de idioma.",
+          "Utilizamos las siguientes categorías de cookies:",
+          "Cookies estrictamente necesarias: esenciales para el funcionamiento del sitio web (como el selector de idioma español/inglés). No requieren consentimiento del usuario.",
+          "Cookies de análisis: nos permiten comprender cómo los visitantes interactúan con nuestro sitio (páginas visitadas, tiempo de permanencia, etc.). Utilizamos herramientas que anonimizan las direcciones IP.",
+          "Cookies de preferencias: recuerdan elecciones del usuario como el idioma seleccionado para mostrar el contenido en español o en inglés.",
+          "Al ingresar por primera vez a nuestro sitio web, se le presentará un aviso de cookies donde podrá aceptar todas las cookies, rechazar las cookies no esenciales o configurar sus preferencias. Puede modificar su configuración de cookies en cualquier momento desde la sección correspondiente de nuestro sitio web. Además, la mayoría de los navegadores permiten gestionar las preferencias de cookies desde sus opciones de configuración."
+        ]
+      },
+      {
+        "title": "11. Modificaciones a este aviso",
+        "content": [
+          "La Escuela Bilingüe Santo Domingo Savio se reserva el derecho de modificar el presente Aviso de Privacidad en cualquier momento para adaptarlo a novedades legislativas, criterios jurisprudenciales o cambios en nuestras prácticas de tratamiento de datos.",
+          "Cualquier modificación sustancial será comunicada a los titulares a través de los canales oficiales de comunicación (correo electrónico institucional, circulares y/o publicación destacada en este sitio web) con al menos 15 días de antelación a su entrada en vigor.",
+          "Recomendamos revisar periódicamente este Aviso de Privacidad para mantenerse informado sobre cómo protegemos sus datos personales. La fecha de última actualización se indica al inicio de este documento."
+        ]
+      },
+      {
+        "title": "12. Legislación aplicable y jurisdicción",
+        "content": [
+          "El presente Aviso de Privacidad se rige por la Ley 81 de 26 de marzo de 2019 de Protección de Datos Personales de la República de Panamá, su Decreto Ejecutivo reglamentario, y las disposiciones emitidas por la autoridad nacional de protección de datos.",
+          "Para cualquier controversia derivada del tratamiento de datos personales, las partes se someten a la jurisdicción de los tribunales competentes de la República de Panamá, sin perjuicio de la facultad del titular de acudir ante la autoridad de protección de datos correspondiente.",
+          "La Escuela Bilingüe Santo Domingo Savio reafirma su compromiso inquebrantable con la privacidad, la transparencia y el respeto a los derechos fundamentales de todos los miembros de nuestra comunidad educativa: estudiantes, familias, docentes y colaboradores."
+        ]
+      }
+    ],
+    "contactTitle": "13. Contacto del responsable",
+    "contactBody": "Para ejercer sus derechos ARCO, solicitar información adicional sobre el tratamiento de sus datos personales, reportar cualquier incidente de seguridad o manifestar cualquier inquietud relacionada con la privacidad, puede contactarnos a través de los siguientes medios: {name}, {location}. Teléfonos: {phones}. Correo institucional disponible a través de nuestra página de contacto."
+  },
+  "Contact": {
+    "hero": {
+      "eyebrow": "Contacto",
+      "title": "Hablemos",
+      "intro": "Estamos cerca de tu familia. Escríbenos, llámanos o visítanos en Don Bosco."
+    },
+    "addressLabel": "Ubicación",
+    "phonesLabel": "Teléfonos",
+    "scheduleLabel": "Horario de atención",
+    "scheduleValue": "Lunes a viernes, 8:00 a.m. a 2:00 p.m.",
+    "socialLabel": "Redes sociales",
+    "ctaTitle": "¿Listos para unirte a nuestra comunidad?",
+    "ctaText": "Conoce el proceso de admisión y da el primer paso.",
+    "ctaButton": "Ver admisiones",
+    "form": {
+      "eyebrow": "Escríbenos",
+      "title": "Cuéntanos cómo podemos ayudarte",
+      "intro": "Completa el formulario y nos pondremos en contacto contigo a la brevedad. También puedes llamarnos o visitarnos en Don Bosco.",
+      "step1": "Completa tus datos en el formulario.",
+      "step2": "Recibiremos tu mensaje de inmediato.",
+      "step3": "Te responderemos en un plazo de 24 a 48 horas hábiles.",
+      "fields": {
+        "name": "Nombre completo",
+        "email": "Correo electrónico",
+        "phone": "Teléfono",
+        "message": "Mensaje",
+        "send": "Enviar mensaje",
+        "sending": "Enviando...",
+        "phoneOptional": "opcional",
+        "namePlaceholder": "Ej. María González",
+        "emailPlaceholder": "Ej. maria@correo.com",
+        "phonePlaceholder": "Ej. 6000-0000",
+        "messagePlaceholder": "Cuéntanos cómo podemos ayudarte... (mínimo 10 caracteres)"
+      },
+      "successTitle": "¡Mensaje enviado!",
+      "successBody": "Gracias por escribirnos. Revisaremos tu mensaje y te responderemos pronto.",
+      "errorTitle": "Corrige los siguientes errores:",
+      "errorBody": "No se pudo enviar el mensaje.",
+      "retry": "Intentar de nuevo"
+    }
+  }
+}

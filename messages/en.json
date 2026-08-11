@@ -1,0 +1,543 @@
+{
+  "Meta": {
+    "title": "Escuela Bilingüe Santo Domingo Savio. Whole child education for the future",
+    "description": "A Catholic Salesian bilingual school in Don Bosco, Panama. Whole child education with care, faith and academic excellence, from Prekínder to High School."
+  },
+  "Nav": {
+    "inicio": "Home",
+    "nosotros": "About Us",
+    "oferta": "Academics",
+    "vida": "School Life",
+    "admisiones": "Admissions and FAQ",
+    "contacto": "Contact",
+    "plataforma": "Academic Platform"
+  },
+  "Pages": {
+    "about": "About Us",
+    "academics": "Academics",
+    "admissions": "Admissions and FAQ",
+    "schoolLife": "School Life",
+    "contact": "Contact"
+  },
+  "Common": {
+    "ctaAdmisiones": "Discover our admissions",
+    "ctaOferta": "Academic offer",
+    "conocerHistoria": "Read our story",
+    "verGaleria": "View gallery",
+    "menu": "Menu",
+    "verMas": "Read more"
+  },
+  "Footer": {
+    "plataformaEyebrow": "Academica Portal",
+    "plataformaTitle": "Check grades and academic progress",
+    "plataformaText": "Parents and students can sign in to the Academic Platform to review grades, report cards and announcements.",
+    "plataformaCta": "Open Academic Platform",
+    "colNavTitle": "Navigation",
+    "colContactTitle": "Contact",
+    "colInfoTitle": "Information",
+    "infoAdmision": "Admissions Process",
+    "infoTarifario": "2027 Tuition",
+    "infoPrivacidad": "Privacy Notice",
+    "infoMenores": "Children Data Protection",
+    "legal": "Compliance with Law 81 on Personal Data Protection of the Republic of Panama.",
+    "tagline": "A Catholic Salesian bilingual school in Don Bosco, Panama. Whole child formation under the Preventive System, since 1987.",
+    "madeIn": "Made with care in Don Bosco, Panama",
+    "rights": "All rights reserved."
+  },
+  "Home": {
+    "hero": {
+      "badge": "An extension of home",
+      "titleTop": "We don't just enroll students,",
+      "titleHighlight": "we welcome families",
+      "subtitle": "Since 1987 we have walked beside every child with care, faith and academic excellence. A bilingual school where your family finds a second home in Don Bosco.",
+      "primaryCta": "Meet our community",
+      "secondaryCta": "Academic offer",
+      "stats": [
+        { "value": "1987", "label": "Serving families" },
+        { "value": "766", "label": "Students" },
+        { "value": "5", "label": "Levels" },
+        { "value": "100%", "label": "Bilingual" }
+      ]
+    },
+    "intro": {
+      "eyebrow": "Our community since 1987",
+      "title": "A home to grow with purpose",
+      "body": "At Escuela Bilingüe Santo Domingo Savio we believe education is accompaniment. We walk beside every family so their children grow with <gold>love</gold>, <gold>faith</gold> and <gold>joy</gold>, discovering their gifts in a warm and safe environment.",
+      "caption": "Students in class"
+    },
+    "mission": {
+      "eyebrow": "Formation in values",
+      "title": "Education with a Salesian soul",
+      "body": "Inspired by Don Bosco's Preventive System, we place <gold>love of neighbor</gold>, <gold>peace</gold> and <gold>social justice</gold> at the center. We form not only students, but whole persons ready to serve.",
+      "pillars": [
+        { "n": "01", "title": "Faith and spirit", "text": "Christian formation that accompanies each student's human growth." },
+        { "n": "02", "title": "Care and prevention", "text": "The Preventive System guides with closeness, dialogue and constant accompaniment." },
+        { "n": "03", "title": "Academic excellence", "text": "A rigorous bilingual curriculum with intensive English, science, robotics and business." },
+        { "n": "04", "title": "Family and community", "text": "The school as an extension of home, in lasting partnership with families." }
+      ]
+    },
+    "journey": {
+      "eyebrow": "Your child's journey",
+      "title": "From Prekínder to graduation with purpose",
+      "intro": "Continuous accompaniment at every stage, with a focus on the whole person.",
+      "steps": [
+        { "age": "Prekínder", "title": "First steps", "text": "Care, play and discovery. Where the love of learning begins.", "caption": "Prekínder and Kindergarten" },
+        { "age": "Elementary", "title": "Strong roots", "text": "Literacy, intensive English and values. Foundations for life.", "caption": "Elementary, grades 1 to 6" },
+        { "age": "Middle School", "title": "Discovering gifts", "text": "Science, business and character. Each student finds their voice.", "caption": "Middle school, grades 7 to 9" },
+        { "age": "High School", "title": "Purpose and future", "text": "Science or Bilingual Business. Ready for college and for life.", "caption": "High school, grades 10 to 12" }
+      ]
+    },
+    "history": {
+      "eyebrow": "Our story",
+      "titleA": "Four decades",
+      "titleHi": "shaping the future",
+      "text": "From the Capilla María Auxiliadora in 1984 to becoming a leading bilingual school in Don Bosco, with {students} students under the leadership of {director}.",
+      "cta": "Read our story",
+      "items": [
+        { "year": "1984", "title": "Capilla María Auxiliadora", "text": "The beginnings of our educational work are tied to the Capilla María Auxiliadora." },
+        { "year": "1987", "title": "The school is born", "text": "Father Marino Morlin opens classes in parish rooms with 15 children." },
+        { "year": "1995", "title": "Permanent Permit", "text": "On July 3, 1995 the permanent MEDUCA permit is granted." },
+        { "year": "Today", "title": "A reference in Don Bosco", "text": "766 students and consolidated high school programs under Mgtr. Nelvin Babacaris." }
+      ]
+    },
+    "accreditations": {
+      "items": ["MEDUCA approved", "Archdiocese of Panama", "Don Bosco's Preventive System", "Since 1987", "766 students"]
+    },
+    "testimonials": {
+      "eyebrow": "Voices from our families",
+      "title": "What we live at Santo Domingo Savio",
+      "items": [
+        { "quote": "My son comes home happy every day. The school feels like an extension of our family.", "name": "Maria", "role": "Mother, Elementary" },
+        { "quote": "The bilingual formation and values gave my daughter an incredible foundation for life.", "name": "Carlos", "role": "Father, High School" },
+        { "quote": "Here I found friends for life and teachers who truly care.", "name": "Andrea", "role": "Alumna" }
+      ]
+    }
+  },
+  "About": {
+    "hero": {
+      "eyebrow": "Who we are",
+      "title": "A community that teaches with the heart",
+      "intro": "Since 1987 we have been an extension of home for hundreds of families in Don Bosco. We form whole persons with academic excellence, faith and care."
+    },
+    "mission": {
+      "eyebrow": "Mission",
+      "title": "To form for life and service",
+      "body": "To provide a whole child bilingual education, inspired by Don Bosco's Preventive System, developing the <gold>human</gold>, <gold>spiritual</gold> and <gold>academic</gold> dimensions of every student, in partnership with the family."
+    },
+    "vision": {
+      "eyebrow": "Vision",
+      "title": "A benchmark of bilingual values education",
+      "body": "We aspire to be an educational community known for forming whole, competent citizens committed to <gold>social justice</gold> and the common good."
+    },
+    "model": {
+      "eyebrow": "Educational model",
+      "title": "The Preventive System",
+      "intro": "Following Don Bosco, we educate from three pillars that prevent and accompany:",
+      "pillars": [
+        { "n": "01", "t": "Reason", "d": "We accompany with common sense, closeness and dialogue." },
+        { "n": "02", "t": "Religion", "d": "We nurture faith and the encounter with God every day." },
+        { "n": "03", "t": "Loving-kindness", "d": "We love each student as our own child." }
+      ]
+    },
+    "director": {
+      "eyebrow": "Our leadership",
+      "title": "Mgtr. Nelvin Babacaris",
+      "body": "Under his leadership, the school today accompanies 766 students from Prekínder to High School.",
+      "quote": "Education is a matter of the heart."
+    },
+    "timeline": {
+      "eyebrow": "Our story",
+      "title": "Four decades of service",
+      "intro": "A journey that began in a chapel and today is a leading bilingual school in Don Bosco.",
+      "items": [
+        { "year": "1984", "title": "Capilla María Auxiliadora", "text": "Our beginnings are tied to the Capilla María Auxiliadora." },
+        { "year": "1987", "title": "The school is born", "text": "Father Marino Morlin opens classes with 15 children in Prekínder and Kindergarten." },
+        { "year": "1989", "title": "Provisional permit", "text": "On July 1, 1989 the provisional permit is granted." },
+        { "year": "1995", "title": "Permanent MEDUCA permit", "text": "On July 3, 1995, under the Archdiocese of Panama and Fr. Jorge Rivera Rodríguez." },
+        { "year": "Today", "title": "A leading bilingual school", "text": "766 students and consolidated high school programs under Mgtr. Nelvin Babacaris." }
+      ]
+    }
+  },
+  "Academics": {
+    "hero": {
+      "eyebrow": "Academics",
+      "title": "A bilingual plan for every stage",
+      "intro": "From Prekínder to High School, with intensive English, science, robotics and business."
+    },
+    "explorer": {
+      "eyebrow": "Workload explorer",
+      "title": "Discover each level and its subjects",
+      "intro": "Weekly hours and subjects per level, so your family knows exactly what will be learned."
+    },
+    "levels": [
+      {
+        "id": "pre-escolar",
+        "name": "Preschool",
+        "grades": "Prekínder and Kindergarten",
+        "hours": "36 h per week",
+        "description": "We accompany the early years focusing on socio emotional, cognitive and motor development.",
+        "tags": ["Bilingual", "Robotics", "Emotional Intelligence"],
+        "areas": [
+          { "name": "Socio emotional area", "subjects": ["Folklore", "Religion", "Mass", "Emotional Intelligence"] },
+          { "name": "Cognitive and language area", "subjects": ["English (6h)", "Language (5h)", "Math (5h)", "Computing & Robotics (2h)"] },
+          { "name": "Motor area", "subjects": ["Motor development", "Guided play"] }
+        ]
+      },
+      {
+        "id": "primaria",
+        "name": "Elementary",
+        "grades": "Grades 1 to 6",
+        "hours": "40 h per week",
+        "description": "Solid foundations with intensive English reinforcement and values formation across all six grades.",
+        "tags": ["Intensive English 10h", "STEM", "Arts & Folklore"],
+        "areas": [
+          { "name": "Academic core", "subjects": ["English (10h)", "Math (5 to 6h)", "Computing", "Robotics"] },
+          { "name": "Whole child formation", "subjects": ["Folklore", "Spiritual Formation", "Arts"] }
+        ]
+      },
+      {
+        "id": "pre-media",
+        "name": "Middle School",
+        "grades": "Grades 7 to 9",
+        "hours": "45 h per week",
+        "description": "A middle stage that introduces business and strengthens scientific and civic thinking.",
+        "tags": ["Introduction to Business", "Science", "English 10h"],
+        "areas": [
+          { "name": "Specialization", "subjects": ["Introduction to Business (8th)", "Introduction to Accounting (9th)"] },
+          { "name": "General formation", "subjects": ["Science", "Geography", "History", "Civics", "English (10h)"] }
+        ]
+      },
+      {
+        "id": "bachillerato-comercio",
+        "name": "Bilingual Business High School",
+        "grades": "Grades 10 to 12",
+        "meta": "270 total h · 34 subjects",
+        "description": "Specialized bilingual formation oriented to business and management, with professional practice.",
+        "tags": ["Bilingual", "Accounting", "Management", "Marketing"],
+        "areas": [
+          { "name": "Featured subjects", "subjects": ["Computer Business Application", "Business Accounting II & III", "Business Management & Human Resources", "Office Management", "Marketing", "Professional Practice"] }
+        ]
+      },
+      {
+        "id": "bachillerato-ciencias",
+        "name": "Science High School",
+        "grades": "Grades 10 to 12",
+        "meta": "131 total h · 33 subjects",
+        "description": "A rigorous scientific track that prepares students for college and the future.",
+        "tags": ["Science", "Technology", "Business Management"],
+        "areas": [
+          { "name": "Science core", "subjects": ["Biology (5h/wk)", "Chemistry (5h/wk)", "Physics (5h/wk)", "Math (5h/wk)", "Information Technology", "Business Management"] }
+        ]
+      }
+    ]
+  },
+  "Admissions": {
+    "hero": {
+      "eyebrow": "Admissions",
+      "title": "A new home for your family",
+      "intro": "We walk with you through every step of the process. Here, every family is welcome."
+    },
+    "wizard": {
+      "eyebrow": "Admissions process",
+      "title": "Four steps to enrollment",
+      "intro": "Simple, clear and close.",
+      "steps": [
+        { "step": "01", "title": "Academic and disciplinary requirements", "description": "We review the applicant's record.", "details": ["Minimum GPA of 4.0 in Elementary", "Minimum of 3.5 per subject in Middle and High School", "Impeccable disciplinary record, with no R or X marks"] },
+        { "step": "02", "title": "Psychological and knowledge test", "description": "Request payment via Banco General Online Banking.", "details": ["$50.00 for Preschool and Elementary", "$60.00 for Middle and High School", "Minimum score of 3.0 on the academic exam", "Minimum score of 85 on the psychological test"] },
+        { "step": "03", "title": "Results", "description": "We share results in a timely way.", "details": ["Results within 3 business days", "Notification by phone"] },
+        { "step": "04", "title": "Enrollment", "description": "Once approved, finalize at our facilities.", "details": ["5 business days to enroll", "Office hours Monday to Friday, 8:00 a.m. to 2:00 p.m."] }
+      ]
+    },
+    "pricing": {
+      "eyebrow": "2027 Tuition",
+      "title": "Clear, transparent costs",
+      "intro": "Approved cost structure for the 2027 school year.",
+      "nivel": "Level",
+      "inscripcion": "Enrollment",
+      "mantenimiento": "Maintenance & labs",
+      "total": "Total enrollment",
+      "mensualidad": "Monthly tuition",
+      "rows": [
+        { "nivel": "Prekínder", "inscripcion": "$125.00", "mantenimiento": "$110.00", "total": "$235.00", "mensualidad": "$145.00" },
+        { "nivel": "Kindergarten", "inscripcion": "$125.00", "mantenimiento": "$130.00", "total": "$255.00", "mensualidad": "$145.00", "nota": "Includes Computing Lab" },
+        { "nivel": "Grades 1 and 2", "inscripcion": "$130.00", "mantenimiento": "$150.00", "total": "$280.00", "mensualidad": "$150.00", "nota": "Includes Languages Lab" },
+        { "nivel": "Grades 3 to 6", "inscripcion": "$135.00", "mantenimiento": "$150.00", "total": "$285.00", "mensualidad": "$155.00" },
+        { "nivel": "Grades 7 to 9, Middle School", "inscripcion": "$145.00", "mantenimiento": "$160.00", "total": "$305.00", "mensualidad": "$165.00", "nota": "Includes Science Lab" },
+        { "nivel": "Grades 10 to 12, Science", "inscripcion": "$154.00", "mantenimiento": "$170.00", "total": "$324.00", "mensualidad": "$195.00", "nota": "Science Lab $20 and Languages $20" },
+        { "nivel": "Grades 10 to 12, Business", "inscripcion": "$154.00", "mantenimiento": "$170.00", "total": "$324.00", "mensualidad": "$195.00", "nota": "Business Computing Lab $20 and Languages $20" }
+      ],
+      "gastosTitle": "General fixed costs included",
+      "gastos": [
+        { "item": "Maintenance", "monto": "$20" },
+        { "item": "Psycho-pedagogical office", "monto": "$5" },
+        { "item": "Accident insurance", "monto": "$30" },
+        { "item": "Nurse's office", "monto": "$5" },
+        { "item": "Student ID", "monto": "$5" },
+        { "item": "Teaching materials", "monto": "$20" },
+        { "item": "Academic Platform", "monto": "$25" }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Frequently asked questions",
+      "title": "We answer your questions",
+      "intro": "What families want to know most.",
+      "items": [
+        { "q": "What is the minimum GPA to apply?", "a": "A minimum GPA of 4.0 in Elementary and 3.5 per subject in Middle and High School is required, along with an impeccable disciplinary record." },
+        { "q": "How much is the admissions test and how do I pay?", "a": "It costs $50.00 for Preschool and Elementary, and $60.00 for Middle and High School. Payment is requested via Banco General Online Banking." },
+        { "q": "What scores do I need on the tests?", "a": "The minimum score is 3.0 on the academic exam and 85 on the psychological test." },
+        { "q": "How soon do I get the results?", "a": "Results are shared within 3 business days, by phone." },
+        { "q": "How long do I have to finalize enrollment?", "a": "Once results are delivered, families have 5 business days to enroll." },
+        { "q": "What are your admissions office hours?", "a": "Monday to Friday, 8:00 a.m. to 2:00 p.m., at Calle 5ta, Don Bosco." },
+        { "q": "From what age do you accept students?", "a": "From Prekínder and Kindergarten through High School, with bilingual formation at every level." },
+        { "q": "How do I check grades?", "a": "Through the Academic Platform, accessible from the Academic Platform button in the menu." }
+      ]
+    }
+  },
+  "SchoolLife": {
+    "hero": {
+      "eyebrow": "School life",
+      "title": "Moments that make us family",
+      "intro": "Daily life, friendships, faith and celebrations that bring our school to life."
+    },
+    "gallery": {
+      "eyebrow": "Gallery",
+      "title": "A day at Santo Domingo Savio",
+      "intro": "Spaces, learning and encounters.",
+      "items": [
+        { "caption": "Facilities" },
+        { "caption": "Classrooms" },
+        { "caption": "Sports" },
+        { "caption": "Spiritual life" },
+        { "caption": "Arts & culture" },
+        { "caption": "Graduation" }
+      ]
+    },
+    "video": {
+      "eyebrow": "Tour",
+      "title": "Get to know our school",
+      "intro": "A tour through school life.",
+      "caption": "Institutional video"
+    }
+  },
+  "Contact": {
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Let's talk",
+      "intro": "We are close to your family. Write, call or visit us in Don Bosco."
+    },
+    "addressLabel": "Location",
+    "phonesLabel": "Phones",
+    "scheduleLabel": "Office hours",
+    "scheduleValue": "Monday to Friday, 8:00 a.m. to 2:00 p.m.",
+    "socialLabel": "Social media",
+    "ctaTitle": "Ready to join our community?",
+    "ctaText": "Learn about the admissions process and take the first step.",
+    "ctaButton": "View admissions",
+    "form": {
+      "eyebrow": "Write to us",
+      "title": "Tell us how we can help",
+      "intro": "Fill out the form and we'll get back to you shortly. You can also call us or visit us in Don Bosco.",
+      "step1": "Fill in your details in the form.",
+      "step2": "We'll receive your message immediately.",
+      "step3": "We'll respond within 24 to 48 business hours.",
+      "fields": {
+        "name": "Full name",
+        "email": "Email address",
+        "phone": "Phone",
+        "message": "Message",
+        "send": "Send message",
+        "sending": "Sending...",
+        "phoneOptional": "optional",
+        "namePlaceholder": "E.g. Jane Smith",
+        "emailPlaceholder": "E.g. jane@email.com",
+        "phonePlaceholder": "E.g. 6000-0000",
+        "messagePlaceholder": "Tell us how we can help... (minimum 10 characters)"
+      },
+      "successTitle": "Message sent!",
+      "successBody": "Thank you for writing. We'll review your message and get back to you soon.",
+      "errorTitle": "Please correct the following:",
+      "errorBody": "Could not send your message.",
+      "retry": "Try again"
+    }
+  },
+  "Privacy": {
+    "hero": {
+      "eyebrow": "Privacy Notice",
+      "title": "Privacy Notice and Personal Data Protection",
+      "intro": "In compliance with Law 81 on Personal Data Protection of the Republic of Panama, we detail how we collect, use and protect your information."
+    },
+    "lastUpdated": "Last updated",
+    "effectiveDate": "August 11, 2026",
+    "sections": [
+      {
+        "title": "1. Identity and address of the data controller",
+        "content": [
+          "Escuela Bilingüe Santo Domingo Savio, located at Calle 5ta, Don Bosco, Panama, is the data controller responsible for the processing of personal data collected through this website, our physical facilities and any other official means of communication.",
+          "Our institution is duly accredited by the Ministry of Education of Panama (MEDUCA) and operates under the tutelage of the Archdiocese of Panama, governed by the principles of Don Bosco's Preventive System and current Panamanian legislation."
+        ]
+      },
+      {
+        "title": "2. Personal data we collect",
+        "content": [
+          "In the exercise of our educational and administrative functions, we may collect the following categories of personal data:",
+          "Identification data: full name, date of birth, ID or passport number, nationality, gender.",
+          "Contact data: home address, landline and mobile phone numbers, personal and institutional email addresses.",
+          "Academic data: academic records, grades, report cards, previous study certificates, admission and psychological test results.",
+          "Family data: information on parents or legal guardians, including names, occupations, contact details, marital status and relevant family relationships for student care.",
+          "Health data: relevant medical information for the student's safety and well-being during their time at the institution, including allergies, pre-existing medical conditions, prescribed medications and emergency contacts.",
+          "Financial data: information related to enrollment fees, monthly tuition, admission tests and other educational services.",
+          "Browsing data: IP address, browser type, pages visited, time spent and other usage information collected through cookies and similar technologies when using our website."
+        ]
+      },
+      {
+        "title": "3. Purposes of data processing",
+        "content": [
+          "The personal data we collect is used exclusively for the following legitimate purposes:",
+          "Provision of educational services: enrollment management, academic administration, communication with parents and guardians, issuance of certificates and official documents, and monitoring of each student's academic and formative performance.",
+          "Admission process: evaluation of applications, administration of psychological and academic tests, communication of results and enrollment formalization.",
+          "Institutional communication: sending of circulars, newsletters, school calendars, meeting notices, event notifications and other relevant information for the educational community.",
+          "Safety and well-being: basic and emergency medical care in the school nurse's office, student accident insurance management, and communication with emergency services when necessary.",
+          "Legal compliance: responding to requirements from competent administrative and judicial authorities, as established by Panamanian legislation.",
+          "Website improvement: anonymous statistical analysis of our website usage to optimize the browsing experience."
+        ]
+      },
+      {
+        "title": "4. Legal basis for processing",
+        "content": [
+          "The processing of personal data carried out by Escuela Bilingüe Santo Domingo Savio is based on the following legal grounds established in Law 81 on Personal Data Protection of Panama:",
+          "Informed consent of the data subject or their legal representatives, in the case of minors, granted at the time of enrollment and throughout the educational relationship.",
+          "Performance of the contractual relationship arising from the provision of educational services.",
+          "Compliance with legal obligations applicable to educational institutions recognized by MEDUCA.",
+          "Legitimate interest of the institution to ensure the safety, well-being and proper formation of students, as well as to communicate with the families that make up our educational community.",
+          "In the case of health data, additional explicit consent is required from parents or guardians, in strict compliance with Article 13 of Law 81."
+        ]
+      },
+      {
+        "title": "5. Minors' data",
+        "content": [
+          "We recognize the special protection that the personal data of children and adolescents deserve. In compliance with Article 20 of Law 81 and provisions on the protection of minors:",
+          "All processing of minors' data requires verifiable consent from their parents or legal guardians. Such consent is obtained at the time of enrollment and may be revoked at any time through a written request.",
+          "Student data is treated with strict confidentiality and is only accessible to teaching and administrative staff who require such information for the performance of their duties.",
+          "We do not share minors' data with third parties without the prior and explicit consent of their legal representatives, except in cases provided by law (medical emergencies, judicial requirements, etc.).",
+          "Photographs and videos of school activities that include students will only be published on our official channels (website, social media, printed materials) with prior authorization granted by parents or guardians through the corresponding image consent form.",
+          "Parents or guardians may exercise ARCO rights (Access, Rectification, Cancellation and Opposition) regarding the data of minors under their care at any time."
+        ]
+      },
+      {
+        "title": "6. Data transfers",
+        "content": [
+          "Escuela Bilingüe Santo Domingo Savio does not commercialize, sell or rent personal data to third parties under any circumstances. The only data transfers we carry out are strictly necessary to:",
+          "Comply with legal obligations before the Ministry of Education (MEDUCA) and other competent authorities.",
+          "Manage services contracted to third parties that act as data processors under strict confidentiality agreements, such as the online academic management platform, cloud storage services and email service providers.",
+          "Address medical emergencies, in which case only the necessary health information will be shared with the treating medical personnel.",
+          "Any other transfer will require the prior, informed and written consent of the data subject or their legal representatives."
+        ]
+      },
+      {
+        "title": "7. Security measures",
+        "content": [
+          "We implement technical, administrative and physical measures to protect personal data against unauthorized access, loss, alteration or destruction. These include:",
+          "Restricted access to physical and digital records, limited exclusively to authorized personnel who require such information for the performance of their duties.",
+          "Use of encryption protocols (HTTPS/TLS) for all communication between the user's browser and our website.",
+          "Storage of digital data on secure servers with access controls, firewalls and continuous monitoring.",
+          "Periodic training of our staff on Law 81 on Personal Data Protection and best practices in handling confidential information.",
+          "Confidentiality agreements with all teaching, administrative staff and service providers who have access to personal data.",
+          "Documented procedures for notifying data breaches to data subjects and the data protection authority, in compliance with Article 34 of Law 81."
+        ]
+      },
+      {
+        "title": "8. Retention periods",
+        "content": [
+          "We retain personal data only for as long as necessary to fulfill the purposes for which they were collected and to address any applicable legal obligations:",
+          "Academic records: retained permanently for their historical and legal value, in compliance with MEDUCA provisions for educational institutions.",
+          "Contact and communication data: retained for the duration of the educational relationship and up to two years after its termination, unless the data subject requests their deletion earlier.",
+          "Financial data: retained for the statute of limitations for tax and commercial obligations established by Panamanian legislation (generally 5 years).",
+          "Browsing data and cookies: retained for a maximum of 13 months from collection.",
+          "Once retention periods expire, data is securely deleted or anonymized for statistical purposes."
+        ]
+      },
+      {
+        "title": "9. ARCO Rights (Access, Rectification, Cancellation and Opposition)",
+        "content": [
+          "Law 81 on Personal Data Protection of the Republic of Panama grants data subjects the following rights, which may be exercised at any time:",
+          "Right of Access: to know what personal data we have recorded about you or the minor under your care, as well as the purposes of processing.",
+          "Right of Rectification: to request the correction of personal data that is inaccurate, incomplete or outdated.",
+          "Right of Cancellation: to request the deletion of personal data when it is no longer necessary for the purposes for which it was collected, provided there is no legal obligation requiring its retention.",
+          "Right of Opposition: to object to the processing of personal data for specific purposes, such as sending non-essential informational communications.",
+          "Right of Portability: to request a copy of personal data in a structured and commonly used format.",
+          "To exercise any of these rights, the data subject or their legal representative must submit a written request at our facilities (Calle 5ta, Don Bosco, Panama, Monday through Friday from 8:00 a.m. to 2:00 p.m.) or via email addressed to our institutional address, accompanied by a copy of their ID or passport. The request will be addressed within a maximum of 10 business days, as established in Law 81."
+        ]
+      },
+      {
+        "title": "10. Use of cookies and similar technologies",
+        "content": [
+          "Our website uses first-party and third-party cookies to improve the browsing experience, anonymously analyze traffic and remember language preferences.",
+          "We use the following categories of cookies:",
+          "Strictly necessary cookies: essential for the operation of the website (such as the Spanish/English language selector). They do not require user consent.",
+          "Analytics cookies: allow us to understand how visitors interact with our site (pages visited, time spent, etc.). We use tools that anonymize IP addresses.",
+          "Preference cookies: remember user choices such as the selected language to display content in Spanish or English.",
+          "When you first visit our website, you will be presented with a cookie notice where you can accept all cookies, reject non-essential cookies or configure your preferences. You can modify your cookie settings at any time from the corresponding section of our website. Additionally, most browsers allow you to manage cookie preferences from their settings options."
+        ]
+      },
+      {
+        "title": "11. Changes to this notice",
+        "content": [
+          "Escuela Bilingüe Santo Domingo Savio reserves the right to modify this Privacy Notice at any time to adapt it to legislative developments, jurisprudential criteria or changes in our data processing practices.",
+          "Any substantial modification will be communicated to data subjects through official communication channels (institutional email, circulars and/or prominent publication on this website) at least 15 days before its entry into force.",
+          "We recommend periodically reviewing this Privacy Notice to stay informed about how we protect your personal data. The date of last update is indicated at the beginning of this document."
+        ]
+      },
+      {
+        "title": "12. Applicable law and jurisdiction",
+        "content": [
+          "This Privacy Notice is governed by Law 81 of March 26, 2019 on Personal Data Protection of the Republic of Panama, its regulatory Executive Decree, and the provisions issued by the national data protection authority.",
+          "For any dispute arising from the processing of personal data, the parties submit to the jurisdiction of the competent courts of the Republic of Panama, without prejudice to the data subject's right to appeal to the corresponding data protection authority.",
+          "Escuela Bilingüe Santo Domingo Savio reaffirms its unwavering commitment to privacy, transparency and respect for the fundamental rights of all members of our educational community: students, families, teachers and collaborators."
+        ]
+      }
+    ],
+    "contactTitle": "13. Data controller contact",
+    "contactBody": "To exercise your ARCO rights, request additional information about the processing of your personal data, report any security incident or express any privacy-related concerns, you may contact us through the following means: {name}, {location}. Phones: {phones}. Institutional email available through our contact page."
+  },
+  "Contact": {
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Let's talk",
+      "intro": "We are close to your family. Write, call or visit us in Don Bosco."
+    },
+    "addressLabel": "Location",
+    "phonesLabel": "Phones",
+    "scheduleLabel": "Office hours",
+    "scheduleValue": "Monday to Friday, 8:00 a.m. to 2:00 p.m.",
+    "socialLabel": "Social media",
+    "ctaTitle": "Ready to join our community?",
+    "ctaText": "Learn about the admissions process and take the first step.",
+    "ctaButton": "View admissions",
+    "form": {
+      "eyebrow": "Write to us",
+      "title": "Tell us how we can help",
+      "intro": "Fill out the form and we'll get back to you shortly. You can also call us or visit us in Don Bosco.",
+      "step1": "Fill in your details in the form.",
+      "step2": "We'll receive your message immediately.",
+      "step3": "We'll respond within 24 to 48 business hours.",
+      "fields": {
+        "name": "Full name",
+        "email": "Email address",
+        "phone": "Phone",
+        "message": "Message",
+        "send": "Send message",
+        "sending": "Sending...",
+        "phoneOptional": "optional",
+        "namePlaceholder": "E.g. Jane Smith",
+        "emailPlaceholder": "E.g. jane@email.com",
+        "phonePlaceholder": "E.g. 6000-0000",
+        "messagePlaceholder": "Tell us how we can help... (minimum 10 characters)"
+      },
+      "successTitle": "Message sent!",
+      "successBody": "Thank you for writing. We'll review your message and get back to you soon.",
+      "errorTitle": "Please correct the following:",
+      "errorBody": "Could not send your message.",
+      "retry": "Try again"
+    }
+  }
+}
