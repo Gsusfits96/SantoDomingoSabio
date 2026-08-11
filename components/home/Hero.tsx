@@ -31,8 +31,8 @@ export function Hero() {
           className="h-full w-full object-cover"
         />
         {/* Overlay cálido para legibilidad */}
-        <div className="absolute inset-0 bg-gradient-to-b from-ivory/92 via-ivory/78 to-ivory/92" />
-        <div className="absolute inset-0 bg-gradient-to-tr from-verde-900/20 via-transparent to-gold-400/20" />
+        <div className="absolute inset-0 bg-gradient-to-b from-ivory/80 via-ivory/60 to-ivory/85" />
+        <div className="absolute inset-0 bg-gradient-to-tr from-verde-900/15 via-transparent to-gold-400/15" />
       </div>
 
       {/* Halo cálido detrás del escudo */}
