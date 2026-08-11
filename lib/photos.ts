@@ -1,30 +1,38 @@
-import { stockPhoto } from "@/components/Figure";
-
 /**
  * FOTOS — centralizado.
  *
- * Ahora mismo usa fotografías temporales (Lorem Picsum) para que el sitio se vea
- * completo. Cuando el colegio suba sus fotos a /public/photos/, basta con
- * reemplazar cada entrada por la ruta local, por ejemplo:
- *   homeIntro: "/photos/inicio.jpg",
+ * Imágenes reales del colegio en /public/.
+ * Cuando lleguen más fotos o se renombren, solo hay que tocar este archivo.
  */
 export const photos = {
-  homeIntro: stockPhoto("sds-estudiantes-sonriendo"),
+  /* ---------- Hero ---------- */
+  hero: "/HERO DOMINGOSAVIO.jpg",
+
+  /* ---------- Home ---------- */
+  homeIntro: "/GRUPO DE ALUMNOS.jpg",
+
+  /* ---------- Viaje (Home) — Prekínder → Bachillerato ---------- */
   journey: [
-    stockPhoto("sds-prekinder-aula"),
-    stockPhoto("sds-primaria-lectura"),
-    stockPhoto("sds-premedia-ciencias"),
-    stockPhoto("sds-bachillerato-graduacion"),
+    "/NIÑOS FORMANDO FILA PARA HIMNO.jpg",       // Prekínder
+    "/NIÑOS CARGANDO MAMPARA Y POSANDO.jpg",      // Primaria
+    "/ALUMNOS Y PROFESORES DOMINGO SAVIO.jpg",     // Premedia
+    "/NIÑA HABLANDO EN MICROFONO.jpg",             // Bachillerato
   ],
-  aboutMission: stockPhoto("sds-comunidad-fe"),
-  aboutVision: stockPhoto("sds-estudiantes-futuro"),
+
+  /* ---------- Nosotros ---------- */
+  aboutMission: "/DOMINGO SAVIO ESTATUA COMPARSA.jpg",
+  aboutVision: "/DIRECTOR HABLANDO A ALUMNOS.jpg",
+
+  /* ---------- Vida Escolar — Galería (6 fotos) ---------- */
   gallery: [
-    stockPhoto("sds-instalaciones"),
-    stockPhoto("sds-aula-brillante"),
-    stockPhoto("sds-deportes-patio"),
-    stockPhoto("sds-misa-espiritualidad"),
-    stockPhoto("sds-arte-folklore"),
-    stockPhoto("sds-graduacion-birrete"),
+    "/EVENTO ETNIA.jpg",
+    "/PASEO DOMINGO SAVIO.jpg",
+    "/PASEO DOMINGO SAVIO2.jpg",
+    "/ACTIVIDAD MUSEO.jpg",
+    "/ACTIVIDAD MUSEO 2.jpg",
+    "/ACTIVIDAD MUSEO 3.jpg",
   ],
-  video: stockPhoto("sds-recorrido-colegio", 1280, 720),
+
+  /* ---------- Video (placeholder — no hay video aún) ---------- */
+  video: "/ACTIVIDAD MUSEO 4.jpg",
 };

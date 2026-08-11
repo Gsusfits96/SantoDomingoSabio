@@ -3,6 +3,7 @@
 import { motion, type Variants } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { GlowButton } from "@/components/ui";
+import { photos } from "@/lib/photos";
 
 const container: Variants = {
   hidden: {},
@@ -20,7 +21,20 @@ export function Hero() {
   const stats = t.raw("stats") as Stat[];
 
   return (
-    <section className="relative flex min-h-[100svh] items-center overflow-hidden bg-warm-wash">
+    <section className="relative flex min-h-[100svh] items-center overflow-hidden">
+      {/* Imagen de fondo */}
+      <div className="absolute inset-0">
+        <img
+          src={photos.hero}
+          alt=""
+          aria-hidden
+          className="h-full w-full object-cover"
+        />
+        {/* Overlay cálido para legibilidad */}
+        <div className="absolute inset-0 bg-gradient-to-b from-ivory/92 via-ivory/78 to-ivory/92" />
+        <div className="absolute inset-0 bg-gradient-to-tr from-verde-900/20 via-transparent to-gold-400/20" />
+      </div>
+
       {/* Halo cálido detrás del escudo */}
       <div className="pointer-events-none absolute left-1/2 top-[42%] h-[40rem] w-[40rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-gold-200/25 blur-3xl" />
       <div className="pointer-events-none absolute bottom-10 right-[12%] h-40 w-40 rounded-full bg-verde-300/30 blur-3xl animate-float" />
