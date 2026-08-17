@@ -168,7 +168,20 @@ export async function Footer() {
           <p>
             © {new Date().getFullYear()} {site.name}. {t("rights")}
           </p>
-          <p>{t("madeIn")}</p>
+          <p className="flex flex-wrap items-center justify-center gap-x-1.5 gap-y-1">
+            <span>{t("madeIn")}</span>
+            <span aria-hidden="true">·</span>
+            <span>{t("developedBy")}</span>
+            <a
+              href="https://nexgenpixels.com?utm_source=client_footer&utm_medium=referral"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visitar agencia de desarrollo NexgenPixels"
+              className="font-semibold text-verde-700 underline-offset-2 transition-colors hover:text-verde-600 hover:underline"
+            >
+              NexgenPixels
+            </a>
+          </p>
         </div>
       </div>
     </footer>
