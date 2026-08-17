@@ -18,7 +18,7 @@ export const site = {
   instagram: "@ebsds1987",
   instagramUrl: "https://instagram.com/ebsds1987",
   facebookUrl: "https://facebook.com",
-  academicaUrl: "#", // Portal Académica (enlace directo)
+  academicaUrl: "https://www.academicanet.com", // Portal Académica (enlace directo)
   mapUrl: "https://www.google.com/maps/search/?api=1&query=Calle+5ta+Don+Bosco+Panama",
   mapEmbed:
     "https://www.google.com/maps?q=Calle%205ta%20Don%20Bosco%2C%20Panama&output=embed",
