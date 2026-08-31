@@ -17,7 +17,7 @@ export const site = {
   phones: ["293 7879", "293 9520"],
   instagram: "@ebsds1987",
   instagramUrl: "https://instagram.com/ebsds1987",
-  facebookUrl: "https://facebook.com",
+  facebookUrl: "https://www.facebook.com/profile.php?id=100075164538362&locale=es_LA",
   academicaUrl: "https://www.academicanet.com", // Portal Académica (enlace directo)
   mapUrl: "https://www.google.com/maps/search/?api=1&query=Calle+5ta+Don+Bosco+Panama",
   mapEmbed:
@@ -65,7 +65,13 @@ export const timeline: TimelineItem[] = [
     year: "1995",
     title: "Permiso Permanente MEDUCA",
     description:
-      "El 3 de julio de 1995, bajo la tutela de la Arquidiócesis de Panamá y el P. Jorge Rivera Rodríguez, se obtiene el permiso permanente.",
+      "El 3 de julio de 1995, bajo la tutela de la Arquidiócesis de Panamá, se obtiene el permiso permanente.",
+  },
+  {
+    year: "2013",
+    title: "Nuevos edificios y nueva administración",
+    description:
+      "Con nuevos edificios y una nueva administración, dirigida por el director del plantel, el Magíster Nelvin Babacaris, y el Delegado Episcopal, P. Jorge Rivera Rodríguez.",
   },
   {
     year: "Hoy",
@@ -80,9 +86,6 @@ export type Level = {
   id: string;
   name: string;
   grades: string;
-  hours: string;
-  totalHours?: string;
-  subjectCount?: string;
   accent: "verde" | "celeste" | "mixed";
   description: string;
   areas: { name: string; subjects: string[] }[];
@@ -94,7 +97,6 @@ export const levels: Level[] = [
     id: "pre-escolar",
     name: "Pre-Escolar",
     grades: "Pre-Kínder y Kínder",
-    hours: "36 h / semana",
     accent: "celeste",
     description:
       "Acompañamos los primeros años con un enfoque en el desarrollo socio-afectivo, cognitivo y psicomotor.",
@@ -105,12 +107,7 @@ export const levels: Level[] = [
       },
       {
         name: "Área Cognitiva Lingüística",
-        subjects: [
-          "Inglés (6h)",
-          "Lenguaje (5h)",
-          "Matemáticas (5h)",
-          "Informática / Robótica (2h)",
-        ],
+        subjects: ["Inglés", "Lenguaje", "Matemáticas", "Informática / Robótica"],
       },
       { name: "Área Psicomotora", subjects: ["Desarrollo motriz", "Juego dirigido"] },
     ],
@@ -120,57 +117,44 @@ export const levels: Level[] = [
     id: "primaria",
     name: "Primaria",
     grades: "1° a 6°",
-    hours: "40 h / semana",
     accent: "verde",
     description:
       "Bases sólidas con reforzamiento intensivo de inglés y formación en valores a lo largo de los seis grados.",
     areas: [
       {
         name: "Núcleo académico",
-        subjects: [
-          "Inglés (10h)",
-          "Matemáticas (5–6h)",
-          "Informática",
-          "Robótica",
-        ],
+        subjects: ["Inglés", "Matemáticas", "Informática", "Robótica"],
       },
       {
         name: "Formación integral",
         subjects: ["Folklore", "Formación Espiritual", "Expresiones Artísticas"],
       },
     ],
-    tags: ["Inglés intensivo 10h", "STEM", "Arte y Folklore"],
+    tags: ["Inglés intensivo", "STEM", "Arte y Folklore"],
   },
   {
     id: "pre-media",
     name: "Pre-Media",
     grades: "7° a 9°",
-    hours: "45 h / semana",
     accent: "mixed",
     description:
       "Preparación intermedia que introduce al mundo del comercio y consolida el pensamiento científico y ciudadano.",
     areas: [
       {
         name: "Especialización",
-        subjects: [
-          "Introducción al Comercio (8°)",
-          "Introducción a la Contabilidad (9°)",
-        ],
+        subjects: ["Introducción al Comercio", "Introducción a la Contabilidad"],
       },
       {
         name: "Formación general",
-        subjects: ["Ciencias", "Geografía", "Historia", "Cívica", "Inglés (10h)"],
+        subjects: ["Ciencias", "Geografía", "Historia", "Cívica", "Inglés"],
       },
     ],
-    tags: ["Introducción al Comercio", "Ciencias", "Inglés 10h"],
+    tags: ["Introducción al Comercio", "Ciencias", "Inglés"],
   },
   {
     id: "bachillerato-comercio",
     name: "Bachillerato en Comercio Bilingüe",
     grades: "10° a 12°",
-    hours: "",
-    totalHours: "270 h totales",
-    subjectCount: "34 asignaturas",
     accent: "celeste",
     description:
       "Formación especializada bilingüe orientada al mundo empresarial y la gestión, con práctica profesional.",
@@ -193,9 +177,6 @@ export const levels: Level[] = [
     id: "bachillerato-ciencias",
     name: "Bachillerato en Ciencias",
     grades: "10° a 12°",
-    hours: "",
-    totalHours: "131 h totales",
-    subjectCount: "33 asignaturas",
     accent: "verde",
     description:
       "Enfoque científico riguroso que prepara a los estudiantes para la universidad y los retos del futuro.",
@@ -203,10 +184,10 @@ export const levels: Level[] = [
       {
         name: "Núcleo científico",
         subjects: [
-          "Biología (5h/sem)",
-          "Química (5h/sem)",
-          "Física (5h/sem)",
-          "Matemáticas (5h/sem)",
+          "Biología",
+          "Química",
+          "Física",
+          "Matemáticas",
           "Tecnología de la Información",
           "Gestión Empresarial",
         ],
@@ -263,7 +244,8 @@ export const admisionSteps: AdmisionStep[] = [
     details: [
       "Promedio mínimo de 4.0 en Primaria",
       "Promedio mínimo de 3.5 por materia en Secundaria",
-      "Expeditivo disciplinario impecable (sin marcas de R o X en el boletín)",
+      "Historial disciplinario impecable: las R o X en el boletín descartan inmediatamente la matrícula",
+      "Entrevista de los apoderados con el director o subdirector",
     ],
   },
   {
@@ -274,6 +256,8 @@ export const admisionSteps: AdmisionStep[] = [
     details: [
       "$50.00 para Preescolar / Primaria",
       "$60.00 para Secundaria",
+      "Pago: área de pagos → nombre del colegio → nombre, cédula y grado del estudiante",
+      "El pago no se devuelve si el postulante no es aceptado",
       "Nota mínima requerida: 3.0 en el examen académico",
       "Nota mínima requerida: 85 en el test psicológico",
     ],
@@ -286,6 +270,7 @@ export const admisionSteps: AdmisionStep[] = [
     details: [
       "Resultados en 3 días hábiles",
       "Notificación vía telefónica",
+      "No se otorgará revisión de examen",
     ],
   },
   {
@@ -294,7 +279,8 @@ export const admisionSteps: AdmisionStep[] = [
     description:
       "Una vez aprobado, formaliza la matrícula en nuestras instalaciones.",
     details: [
-      "5 días hábiles para formalizar la matrícula",
+      "5 días hábiles para formalizar la matrícula (de lo contrario se pierde el cupo)",
+      "Firma de contrato de matrícula",
       "Atención presencial: lunes a viernes, 8:00 a.m. a 2:00 p.m.",
     ],
   },

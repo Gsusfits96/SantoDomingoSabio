@@ -48,15 +48,15 @@
   "Home": {
     "hero": {
       "badge": "An extension of home",
-      "titleTop": "We don't just enroll students,",
-      "titleHighlight": "we welcome families",
+      "titleTop": "Escuela Bilingüe",
+      "titleHighlight": "Santo Domingo Savio",
       "subtitle": "Since 1987 we have walked beside every child with care, faith and academic excellence. A bilingual school where your family finds a second home in Don Bosco.",
       "primaryCta": "Meet our community",
       "secondaryCta": "Academic offer",
       "stats": [
         { "value": "1987", "label": "Serving families" },
         { "value": "766", "label": "Students" },
-        { "value": "5", "label": "Levels" },
+        { "value": "4", "label": "Stages" },
         { "value": "100%", "label": "Bilingual" }
       ]
     },
@@ -64,7 +64,7 @@
       "eyebrow": "Our community since 1987",
       "title": "A home to grow with purpose",
       "body": "At Escuela Bilingüe Santo Domingo Savio we believe education is accompaniment. We walk beside every family so their children grow with <gold>love</gold>, <gold>faith</gold> and <gold>joy</gold>, discovering their gifts in a warm and safe environment.",
-      "caption": "Students in class"
+      "caption": "Our graduates"
     },
     "mission": {
       "eyebrow": "Formation in values",
@@ -82,11 +82,12 @@
       "title": "From Prekínder to graduation with purpose",
       "intro": "Continuous accompaniment at every stage, with a focus on the whole person.",
       "steps": [
-        { "age": "Prekínder", "title": "First steps", "text": "Care, play and discovery. Where the love of learning begins.", "caption": "Prekínder and Kindergarten" },
-        { "age": "Elementary", "title": "Strong roots", "text": "Literacy, intensive English and values. Foundations for life.", "caption": "Elementary, grades 1 to 6" },
-        { "age": "Middle School", "title": "Discovering gifts", "text": "Science, business and character. Each student finds their voice.", "caption": "Middle school, grades 7 to 9" },
-        { "age": "High School", "title": "Purpose and future", "text": "Science or Bilingual Business. Ready for college and for life.", "caption": "High school, grades 10 to 12" }
-      ]
+        { "age": "Prekínder", "title": "First steps", "text": "Care, play and discovery. Where the love of learning begins." },
+        { "age": "Elementary", "title": "Strong roots", "text": "Literacy, intensive English and values. Foundations for life." },
+        { "age": "Middle School", "title": "Discovering gifts", "text": "Science, business and character. Each student finds their voice." },
+        { "age": "High School", "title": "Purpose and future", "text": "Science or Bilingual Business. Ready for college and for life." }
+      ],
+      "cta": "Explore the academic offer"
     },
     "history": {
       "eyebrow": "Our story",
@@ -98,6 +99,7 @@
         { "year": "1984", "title": "Capilla María Auxiliadora", "text": "The beginnings of our educational work are tied to the Capilla María Auxiliadora." },
         { "year": "1987", "title": "The school is born", "text": "Father Marino Morlin opens classes in parish rooms with 15 children." },
         { "year": "1995", "title": "Permanent Permit", "text": "On July 3, 1995 the permanent MEDUCA permit is granted." },
+        { "year": "2013", "title": "New buildings and new administration", "text": "With new buildings and a new administration, led by the school's director, Magíster Nelvin Babacaris, and the Episcopal Delegate, Fr. Jorge Rivera Rodríguez." },
         { "year": "Today", "title": "A reference in Don Bosco", "text": "766 students and consolidated high school programs under Mgtr. Nelvin Babacaris." }
       ]
     },
@@ -154,7 +156,8 @@
         { "year": "1984", "title": "Capilla María Auxiliadora", "text": "Our beginnings are tied to the Capilla María Auxiliadora." },
         { "year": "1987", "title": "The school is born", "text": "Father Marino Morlin opens classes with 15 children in Prekínder and Kindergarten." },
         { "year": "1989", "title": "Provisional permit", "text": "On July 1, 1989 the provisional permit is granted." },
-        { "year": "1995", "title": "Permanent MEDUCA permit", "text": "On July 3, 1995, under the Archdiocese of Panama and Fr. Jorge Rivera Rodríguez." },
+        { "year": "1995", "title": "Permanent MEDUCA permit", "text": "On July 3, 1995, under the tutelage of the Archdiocese of Panama, the permanent permit is granted." },
+        { "year": "2013", "title": "New buildings and new administration", "text": "With new buildings and a new administration, led by the school's director, Magíster Nelvin Babacaris, and the Episcopal Delegate, Fr. Jorge Rivera Rodríguez." },
         { "year": "Today", "title": "A leading bilingual school", "text": "766 students and consolidated high school programs under Mgtr. Nelvin Babacaris." }
       ]
     }
@@ -163,24 +166,23 @@
     "hero": {
       "eyebrow": "Academics",
       "title": "A bilingual plan for every stage",
-      "intro": "From Prekínder to High School, with intensive English, science, robotics and business."
+      "intro": "From Prekínder to High School, with intensive English, science, robotics and Bilingual Business."
     },
     "explorer": {
-      "eyebrow": "Workload explorer",
-      "title": "Discover each level and its subjects",
-      "intro": "Weekly hours and subjects per level, so your family knows exactly what will be learned."
+      "eyebrow": "Curriculum",
+      "title": "All subjects for every level",
+      "intro": "The complete list of subjects, from Prekínder to High School."
     },
     "levels": [
       {
         "id": "pre-escolar",
         "name": "Preschool",
         "grades": "Prekínder and Kindergarten",
-        "hours": "36 h per week",
         "description": "We accompany the early years focusing on socio emotional, cognitive and motor development.",
         "tags": ["Bilingual", "Robotics", "Emotional Intelligence"],
         "areas": [
           { "name": "Socio emotional area", "subjects": ["Folklore", "Religion", "Mass", "Emotional Intelligence"] },
-          { "name": "Cognitive and language area", "subjects": ["English (6h)", "Language (5h)", "Math (5h)", "Computing & Robotics (2h)"] },
+          { "name": "Cognitive and language area", "subjects": ["English", "Language", "Math", "Computing & Robotics"] },
           { "name": "Motor area", "subjects": ["Motor development", "Guided play"] }
         ]
       },
@@ -188,11 +190,10 @@
         "id": "primaria",
         "name": "Elementary",
         "grades": "Grades 1 to 6",
-        "hours": "40 h per week",
         "description": "Solid foundations with intensive English reinforcement and values formation across all six grades.",
-        "tags": ["Intensive English 10h", "STEM", "Arts & Folklore"],
+        "tags": ["Intensive English", "STEM", "Arts & Folklore"],
         "areas": [
-          { "name": "Academic core", "subjects": ["English (10h)", "Math (5 to 6h)", "Computing", "Robotics"] },
+          { "name": "Academic core", "subjects": ["English", "Math", "Computing", "Robotics"] },
           { "name": "Whole child formation", "subjects": ["Folklore", "Spiritual Formation", "Arts"] }
         ]
       },
@@ -200,19 +201,17 @@
         "id": "pre-media",
         "name": "Middle School",
         "grades": "Grades 7 to 9",
-        "hours": "45 h per week",
         "description": "A middle stage that introduces business and strengthens scientific and civic thinking.",
-        "tags": ["Introduction to Business", "Science", "English 10h"],
+        "tags": ["Introduction to Business", "Science", "English"],
         "areas": [
-          { "name": "Specialization", "subjects": ["Introduction to Business (8th)", "Introduction to Accounting (9th)"] },
-          { "name": "General formation", "subjects": ["Science", "Geography", "History", "Civics", "English (10h)"] }
+          { "name": "Specialization", "subjects": ["Introduction to Business", "Introduction to Accounting"] },
+          { "name": "General formation", "subjects": ["Science", "Geography", "History", "Civics", "English"] }
         ]
       },
       {
         "id": "bachillerato-comercio",
         "name": "Bilingual Business High School",
         "grades": "Grades 10 to 12",
-        "meta": "270 total h · 34 subjects",
         "description": "Specialized bilingual formation oriented to business and management, with professional practice.",
         "tags": ["Bilingual", "Accounting", "Management", "Marketing"],
         "areas": [
@@ -223,11 +222,10 @@
         "id": "bachillerato-ciencias",
         "name": "Science High School",
         "grades": "Grades 10 to 12",
-        "meta": "131 total h · 33 subjects",
         "description": "A rigorous scientific track that prepares students for college and the future.",
         "tags": ["Science", "Technology", "Business Management"],
         "areas": [
-          { "name": "Science core", "subjects": ["Biology (5h/wk)", "Chemistry (5h/wk)", "Physics (5h/wk)", "Math (5h/wk)", "Information Technology", "Business Management"] }
+          { "name": "Science core", "subjects": ["Biology", "Chemistry", "Physics", "Math", "Information Technology", "Business Management"] }
         ]
       }
     ]
@@ -243,10 +241,96 @@
       "title": "Four steps to enrollment",
       "intro": "Simple, clear and close.",
       "steps": [
-        { "step": "01", "title": "Academic and disciplinary requirements", "description": "We review the applicant's record.", "details": ["Minimum GPA of 4.0 in Elementary", "Minimum of 3.5 per subject in Middle and High School", "Impeccable disciplinary record, with no R or X marks"] },
-        { "step": "02", "title": "Psychological and knowledge test", "description": "Request payment via Banco General Online Banking.", "details": ["$50.00 for Preschool and Elementary", "$60.00 for Middle and High School", "Minimum score of 3.0 on the academic exam", "Minimum score of 85 on the psychological test"] },
-        { "step": "03", "title": "Results", "description": "We share results in a timely way.", "details": ["Results within 3 business days", "Notification by phone"] },
-        { "step": "04", "title": "Enrollment", "description": "Once approved, finalize at our facilities.", "details": ["5 business days to enroll", "Office hours Monday to Friday, 8:00 a.m. to 2:00 p.m."] }
+        { "step": "01", "title": "Academic and disciplinary requirements", "description": "We review the applicant's record.", "details": ["Minimum GPA of 4.0 in Elementary", "Minimum of 3.5 per subject in Middle and High School", "Impeccable disciplinary record: R or X marks on the transcript immediately rule out enrollment", "Interview of the parents or guardians with the director or sub-director"] },
+        { "step": "02", "title": "Psychological and knowledge test", "description": "Request payment via Banco General Online Banking.", "details": ["$50.00 for Preschool and Elementary", "$60.00 for Middle and High School", "To pay: payments area → school name → student's name, ID and grade", "The fee is non-refundable if the applicant is not accepted", "Minimum score of 3.0 on the academic exam", "Minimum score of 85 on the psychological test"] },
+        { "step": "03", "title": "Results", "description": "We share results in a timely way.", "details": ["Results within 3 business days", "Notification by phone", "No exam review will be granted"] },
+        { "step": "04", "title": "Enrollment", "description": "Once approved, finalize at our facilities.", "details": ["5 business days to enroll; otherwise the spot is lost", "Signing of the enrollment contract", "Office hours Monday to Friday, 8:00 a.m. to 2:00 p.m."] }
+      ]
+    },
+    "requirements": {
+      "eyebrow": "Requirements by level",
+      "title": "Requirements for each grade",
+      "intro": "Documents and specific requirements depending on the level applied for. All documentation must be submitted complete.",
+      "extrasTitle": "Additionally, for foreign students",
+      "criteriaTitle": "Selection criteria",
+      "criteria": ["Personal background", "Academic background", "Admissions exam results", "Individual interview with the parent or guardian"],
+      "groups": [
+        {
+          "level": "Prekínder",
+          "items": [
+            "School birth certificate and juvenile ID (cédula juvenil)",
+            "Copy of passport if foreign",
+            "Copy of immigration record if foreign",
+            "Certificate of good health",
+            "Two passport-size photos",
+            "Four years old by the start of the school year entering Prekínder",
+            "Copy of both parents' IDs (for foreigners, copy of both parents' passports)",
+            "Copy of vaccination record",
+            "Clinical reports in case of therapies (psychologist, neurologist, speech therapist, educational psychologist; previous and current)",
+            "Baptism certificate"
+          ]
+        },
+        {
+          "level": "Kínder",
+          "items": [
+            "School birth certificate and juvenile ID (cédula juvenil)",
+            "Copy of passport if foreign",
+            "Copy of immigration record if foreign",
+            "Certificate of good health",
+            "Two passport-size photos",
+            "Five years old by the start of the school year entering Kindergarten",
+            "Copy of both parents' IDs (for foreigners, copy of both parents' passports)",
+            "Copy of vaccination record",
+            "Clinical reports in case of therapies (psychologist, neurologist, speech therapist, educational psychologist; previous and current)",
+            "Baptism certificate"
+          ]
+        },
+        {
+          "level": "1st grade",
+          "items": [
+            "School birth certificate and juvenile ID (cédula juvenil)",
+            "Certificate of good health",
+            "Two passport-size photos",
+            "Clinical reports in case of therapies (psychologist, neurologist, speech therapist, educational psychologist; previous and current)",
+            "Copy of both parents' IDs (for foreigners, copy of both parents' passports)",
+            "Copy of vaccination record",
+            "Copy of the Kindergarten report card",
+            "Baptism certificate",
+            "Clearance letter (paz y salvo) from the previous school"
+          ],
+          "extras": ["Copy of passport", "Copy of immigration record", "Vaccination records (copy)"]
+        },
+        {
+          "level": "Grades 2 to 6",
+          "items": [
+            "School birth certificate and juvenile ID (cédula juvenil)",
+            "Certificate of good health",
+            "Two passport-size photos",
+            "Clinical reports in case of therapies (psychologist, neurologist, speech therapist, educational psychologist; previous and current)",
+            "Copy of both parents' IDs (for foreigners, copy of both parents' passports)",
+            "Copy of vaccination record",
+            "Conduct letter from the previous school",
+            "Copy of current-year grades and original sealed transcripts from previous years",
+            "Baptism certificate",
+            "Clearance letter (paz y salvo) from the previous school"
+          ],
+          "extras": ["Copy of passport", "Copy of immigration record", "Vaccination records (copy)", "Ministry of Education certification of credit validation, apostilled"]
+        },
+        {
+          "level": "Secondary (7th to 10th)",
+          "items": [
+            "School birth certificate and juvenile ID (cédula juvenil)",
+            "Certificate of good health",
+            "Two passport-size photos",
+            "Copy of both parents' IDs (for foreigners, copy of both parents' passports)",
+            "Clinical reports in case of therapies (psychologist, neurologist, speech therapist, educational psychologist; previous and current)",
+            "Conduct letter from the previous school",
+            "Ninth-grade students applying to tenth grade must bring a copy of the certificate",
+            "Copy of current-year grades and previous years' grades",
+            "Clearance letter (paz y salvo) from the previous school"
+          ],
+          "extras": ["Copy of passport", "Copy of immigration record", "Vaccination records (copy)", "Ministry of Education certification of credit validation, apostilled"]
+        }
       ]
     },
     "pricing": {
@@ -290,7 +374,9 @@
         { "q": "How long do I have to finalize enrollment?", "a": "Once results are delivered, families have 5 business days to enroll." },
         { "q": "What are your admissions office hours?", "a": "Monday to Friday, 8:00 a.m. to 2:00 p.m., at Calle 5ta, Don Bosco." },
         { "q": "From what age do you accept students?", "a": "From Prekínder and Kindergarten through High School, with bilingual formation at every level." },
-        { "q": "How do I check grades?", "a": "Through the Academic Platform, accessible from the Academic Platform button in the menu." }
+        { "q": "How do I check grades?", "a": "Through the Academic Platform, accessible from the Academic Platform button in the menu." },
+        { "q": "Is the test fee refunded if my child is not accepted?", "a": "No. If the applicant is not accepted, the test fee is not refunded." },
+        { "q": "Can I request a review of the admissions exam?", "a": "No exam review will be granted." }
       ]
     }
   },
@@ -306,12 +392,24 @@
       "intro": "Spaces, learning and encounters.",
       "items": [
         { "caption": "Facilities" },
-        { "caption": "Classrooms" },
-        { "caption": "Sports" },
+        { "caption": "Activities" },
+        { "caption": "Students" },
         { "caption": "Spiritual life" },
         { "caption": "Arts & culture" },
         { "caption": "Graduation" }
       ]
+    },
+    "band": {
+      "eyebrow": "School band",
+      "title": "The band that moves us",
+      "intro": "The band accompanies the school's greatest moments: civic events, religious celebrations and community gatherings.",
+      "caption": "School band"
+    },
+    "graduaciones": {
+      "eyebrow": "Graduations",
+      "title": "Graduating classes that fill us with pride",
+      "intro": "The fruits of every stage: our graduates and their families, celebrating together.",
+      "caption": "Graduations"
     },
     "video": {
       "eyebrow": "Tour",

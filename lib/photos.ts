@@ -6,31 +6,54 @@
  */
 export const photos = {
   /* ---------- Hero ---------- */
-  hero: "/HERO DOMINGOSAVIO.jpg",
+  hero: "/escuela santodomingosavio hero.webp",
 
   /* ---------- Home ---------- */
-  homeIntro: "/GRUPO DE ALUMNOS.jpg",
+  homeIntro: "/GRADUACIONES PORTADA.jpeg",
 
   /* ---------- Viaje (Home) — Prekínder → Bachillerato ---------- */
   journey: [
-    "/NIÑOS FORMANDO FILA PARA HIMNO.jpg",       // Prekínder
-    "/NIÑOS CARGANDO MAMPARA Y POSANDO.jpg",      // Primaria
-    "/ALUMNOS Y PROFESORES DOMINGO SAVIO.jpg",     // Premedia
-    "/NIÑA HABLANDO EN MICROFONO.jpg",             // Bachillerato
+    "/GRADUACIONES1.jpeg",                        // Prekínder — primeros pasos
+    "/NIÑOS CARGANDO MAMPARA Y POSANDO-opt.jpg",  // Primaria — raíces firmes
+    "/actividades 2 domingo savio.jpg",           // Premedia — descubrir talentos
+    "/graduaciones kinder 6 9 12.jpg",            // Bachillerato — propósito y futuro
   ],
 
   /* ---------- Nosotros ---------- */
   aboutMission: "/DOMINGO SAVIO ESTATUA COMPARSA.jpg",
   aboutVision: "/DIRECTOR HABLANDO A ALUMNOS.jpg",
 
-  /* ---------- Vida Escolar — Galería (6 fotos) ---------- */
+  /* ---------- Vida Escolar — Galería por apartados (null = foto pendiente) ---------- */
   gallery: [
-    "/EVENTO ETNIA.jpg",
-    "/PASEO DOMINGO SAVIO.jpg",
-    "/PASEO DOMINGO SAVIO2.jpg",
-    "/ACTIVIDAD MUSEO.jpg",
-    "/ACTIVIDAD MUSEO 2.jpg",
-    "/ACTIVIDAD MUSEO 3.jpg",
+    "/portada domingo savio instalaciones.webp", // Instalaciones
+    "/actividades 2 domingo savio.jpg", // Actividades
+    "/IMG-20260710-WA0078.jpg", // Estudiantes
+    "/iglesia santo domingo savio-opt.jpg", // Vida espiritual
+    "/actividades domingo savio.jpg", // Arte y cultura
+    "/GRADUACIONES PORTADA.jpeg", // Graduación
+  ],
+
+  /* ---------- Banda escolar (Vida Escolar) ---------- */
+  band: [
+    "/BANDA1.jpeg",
+    "/BANDA2.jpeg",
+    "/BANDA3.jpeg",
+    "/BANDA4.jpeg",
+    "/BANDA5.jpeg",
+    "/BANDA6.jpeg",
+    "/BANDA7.jpeg",
+  ],
+
+  /* ---------- Graduaciones (Vida Escolar) ---------- */
+  graduaciones: [
+    "/GRADUACIONES PORTADA.jpeg",
+    "/GRADUACIONES1.jpeg",
+    "/GRADUACIONES2.jpeg",
+    "/GRADUACIONES3.jpeg",
+    "/GRADUACIONES4.jpeg",
+    "/GRADUACIONES5.jpeg",
+    "/graduaciones kinder 6 9 12.jpg",
+    "/graduaciones kinder 6 9 122.jpg",
   ],
 
   /* ---------- Video (placeholder — no hay video aún) ---------- */

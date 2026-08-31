@@ -1,4 +1,3 @@
-import { Link } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
 import { Hero } from "@/components/home/Hero";
 import { Reveal, RevealStagger } from "@/components/Reveal";
@@ -9,7 +8,7 @@ import { photos } from "@/lib/photos";
 import { site } from "@/lib/site";
 
 type Pillar = { n: string; title: string; text: string };
-type Step = { age: string; title: string; text: string; caption: string };
+type Step = { age: string; title: string; text: string };
 type HistoryItem = { year: string; title: string; text: string };
 type Testimonial = { quote: string; name: string; role: string };
 
@@ -93,7 +92,7 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* VIAJE — storytelling vertical con fotografía protagonista */}
+      {/* VIAJE — recorrido editorial por etapas con fotografía */}
       <section className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
         <Reveal className="max-w-2xl">
           <Eyebrow>{t("journey.eyebrow")}</Eyebrow>
@@ -106,30 +105,38 @@ export default async function HomePage() {
         <div className="mt-16 space-y-16 sm:space-y-24">
           {steps.map((s, i) => (
             <Reveal key={s.age} delay={0.05}>
-              <Link
-                href="/oferta-academica"
-                className="group grid items-center gap-8 lg:grid-cols-2 lg:gap-16"
-              >
+              <div className="grid items-center gap-8 lg:grid-cols-2 lg:gap-16">
                 <div className={i % 2 === 1 ? "lg:order-2" : ""}>
-                  <Figure src={photos.journey[i] ?? photos.homeIntro} caption={s.caption} />
+                  <Figure
+                    src={photos.journey[i] ?? photos.homeIntro}
+                    caption={s.title}
+                  />
                 </div>
                 <div className={i % 2 === 1 ? "lg:order-1" : ""}>
-                  <span className="text-sm font-semibold uppercase tracking-[0.16em] text-gold-600">
-                    {s.age}
-                  </span>
-                  <h3 className="mt-2 font-serif text-3xl font-medium leading-tight tracking-tight text-ink sm:text-4xl">
+                  <div className="flex items-baseline gap-3">
+                    <span className="font-serif text-2xl font-semibold tabular-nums text-gold-500">
+                      {String(i + 1).padStart(2, "0")}
+                    </span>
+                    <span className="text-sm font-semibold uppercase tracking-[0.16em] text-verde-600">
+                      {s.age}
+                    </span>
+                  </div>
+                  <h3 className="mt-3 font-serif text-2xl font-medium leading-tight tracking-tight text-ink sm:text-3xl">
                     {s.title}
                   </h3>
-                  <p className="mt-3 max-w-md text-lg leading-relaxed text-graphite">{s.text}</p>
-                  <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-verde-700">
-                    {site.shortName}
-                    <ArrowIcon />
-                  </span>
+                  <p className="mt-2 max-w-md text-lg leading-relaxed text-graphite">{s.text}</p>
                 </div>
-              </Link>
+              </div>
             </Reveal>
           ))}
         </div>
+
+        <Reveal className="mt-12">
+          <GlowButton href="/oferta-academica" variant="secondary">
+            {t("journey.cta")}
+            <ArrowIcon />
+          </GlowButton>
+        </Reveal>
       </section>
 
       {/* TESTIMONIOS */}

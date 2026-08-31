@@ -9,8 +9,6 @@ type Level = {
   id: string;
   name: string;
   grades: string;
-  hours?: string;
-  meta?: string;
   description: string;
   tags: string[];
   areas: Area[];
@@ -62,9 +60,6 @@ export default async function AcademicsPage() {
                     {lvl.description}
                   </p>
                   <div className="mt-4 flex flex-wrap gap-2">
-                    <span className="inline-flex items-center gap-1.5 rounded-full bg-verde-600 px-3 py-1 text-xs font-semibold text-white">
-                      {lvl.hours ?? lvl.meta}
-                    </span>
                     {lvl.tags.map((tag) => (
                       <span
                         key={tag}

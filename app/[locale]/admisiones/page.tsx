@@ -6,6 +6,7 @@ import { Eyebrow } from "@/components/ui";
 import { Accordion } from "@/components/Accordion";
 
 type Step = { step: string; title: string; description: string; details: string[] };
+type Group = { level: string; items: string[]; extras?: string[] };
 type Row = {
   nivel: string;
   inscripcion: string;
@@ -29,6 +30,8 @@ export async function generateMetadata({
 export default async function AdmissionsPage() {
   const t = await getTranslations("Admissions");
   const steps = t.raw("wizard.steps") as Step[];
+  const groups = t.raw("requirements.groups") as Group[];
+  const criteria = t.raw("requirements.criteria") as string[];
   const rows = t.raw("pricing.rows") as Row[];
   const gastos = t.raw("pricing.gastos") as Gasto[];
   const faqs = t.raw("faq.items") as { q: string; a: string }[];
@@ -69,6 +72,69 @@ export default async function AdmissionsPage() {
           ))}
         </div>
       </section>
+
+      {/* REQUISITOS POR NIVEL (se muestran cuando el colegio envía el listado) */}
+      {groups.length > 0 && (
+        <section className="mx-auto max-w-6xl px-6 py-16 sm:py-20">
+          <Reveal className="max-w-2xl">
+            <Eyebrow>{t("requirements.eyebrow")}</Eyebrow>
+            <h2 className="mt-4 font-serif text-4xl font-medium leading-[1.08] tracking-tight text-ink sm:text-5xl">
+              {t("requirements.title")}
+            </h2>
+            <p className="mt-4 text-lg leading-relaxed text-graphite">{t("requirements.intro")}</p>
+          </Reveal>
+          <div className="mt-12 grid gap-8 sm:grid-cols-2">
+            {groups.map((g) => (
+              <Reveal key={g.level}>
+                <div className="h-full rounded-2xl border border-black/[0.07] bg-paper p-7 shadow-soft">
+                  <h3 className="font-serif text-2xl font-medium text-ink">{g.level}</h3>
+                  <ul className="mt-4 space-y-2.5">
+                    {g.items.map((it) => (
+                      <li key={it} className="flex gap-2 text-[15px] text-graphite">
+                        <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-gold-400" />
+                        {it}
+                      </li>
+                    ))}
+                  </ul>
+                  {g.extras && g.extras.length > 0 && (
+                    <div className="mt-5 rounded-xl bg-cream p-4">
+                      <h4 className="text-[12px] font-semibold uppercase tracking-[0.12em] text-verde-700">
+                        {t("requirements.extrasTitle")}
+                      </h4>
+                      <ul className="mt-2.5 space-y-2">
+                        {g.extras.map((it) => (
+                          <li key={it} className="flex gap-2 text-[14px] text-graphite">
+                            <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-gold-400" />
+                            {it}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                </div>
+              </Reveal>
+            ))}
+          </div>
+
+          {criteria.length > 0 && (
+            <Reveal className="mt-10">
+              <div className="rounded-2xl border border-black/[0.07] bg-paper p-7 shadow-soft">
+                <h3 className="font-serif text-2xl font-medium text-ink">
+                  {t("requirements.criteriaTitle")}
+                </h3>
+                <ul className="mt-4 grid gap-2.5 sm:grid-cols-2">
+                  {criteria.map((c) => (
+                    <li key={c} className="flex gap-2 text-[15px] text-graphite">
+                      <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-verde-600" />
+                      {c}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </Reveal>
+          )}
+        </section>
+      )}
 
       {/* TARIFARIO */}
       <section id="tarifario" className="bg-cream py-16 sm:py-20">

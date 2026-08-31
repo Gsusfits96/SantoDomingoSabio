@@ -48,15 +48,15 @@
   "Home": {
     "hero": {
       "badge": "Una extensión del hogar",
-      "titleTop": "Aquí no inscribimos estudiantes,",
-      "titleHighlight": "matriculamos familias",
+      "titleTop": "Escuela Bilingüe",
+      "titleHighlight": "Santo Domingo Savio",
       "subtitle": "Desde 1987 acompañamos a cada niño y niña con cariño, fe y excelencia académica. Una escuela bilingüe donde tu familia encuentra su segundo hogar en Don Bosco.",
       "primaryCta": "Conoce nuestra comunidad",
       "secondaryCta": "Oferta académica",
       "stats": [
         { "value": "1987", "label": "Al servicio de las familias" },
         { "value": "766", "label": "Estudiantes" },
-        { "value": "5", "label": "Niveles" },
+        { "value": "4", "label": "Etapas" },
         { "value": "100%", "label": "Bilingüe" }
       ]
     },
@@ -64,7 +64,7 @@
       "eyebrow": "Nuestra comunidad desde 1987",
       "title": "Un hogar donde crecer con propósito",
       "body": "En la Escuela Bilingüe Santo Domingo Savio creemos que educar es acompañar. Caminamos junto a cada familia para que sus hijos crezcan con <gold>amor</gold>, <gold>fe</gold> y <gold>alegría</gold>, descubriendo sus talentos en un ambiente cálido y seguro.",
-      "caption": "Estudiantes en clase"
+      "caption": "Nuestros graduados"
     },
     "mission": {
       "eyebrow": "Formación en valores",
@@ -82,11 +82,12 @@
       "title": "Desde Prekínder hasta graduarse con propósito",
       "intro": "Un acompañamiento continuo en cada etapa, con la mirada puesta en la persona completa.",
       "steps": [
-        { "age": "Prekínder", "title": "Primeros pasos", "text": "Cariño, juego y descubrimiento. Donde nace el amor por aprender.", "caption": "Prekínder y Kínder" },
-        { "age": "Primaria", "title": "Raíces firmes", "text": "Lectura, inglés intensivo y valores. Bases para toda la vida.", "caption": "Primaria, 1° a 6°" },
-        { "age": "Premedia", "title": "Descubrir talentos", "text": "Ciencias, comercio y carácter. Cada estudiante encuentra su voz.", "caption": "Premedia, 7° a 9°" },
-        { "age": "Bachillerato", "title": "Propósito y futuro", "text": "Ciencias o Comercio Bilingüe. Listos para la universidad y la vida.", "caption": "Bachillerato, 10° a 12°" }
-      ]
+        { "age": "Prekínder", "title": "Primeros pasos", "text": "Cariño, juego y descubrimiento. Donde nace el amor por aprender." },
+        { "age": "Primaria", "title": "Raíces firmes", "text": "Lectura, inglés intensivo y valores. Bases para toda la vida." },
+        { "age": "Premedia", "title": "Descubrir talentos", "text": "Ciencias, comercio y carácter. Cada estudiante encuentra su voz." },
+        { "age": "Bachillerato", "title": "Propósito y futuro", "text": "Ciencias o Comercio Bilingüe. Listos para la universidad y la vida." }
+      ],
+      "cta": "Explora la oferta académica"
     },
     "history": {
       "eyebrow": "Nuestra historia",
@@ -98,6 +99,7 @@
         { "year": "1984", "title": "Capilla María Auxiliadora", "text": "Los inicios de la obra educativa están ligados a la Capilla María Auxiliadora." },
         { "year": "1987", "title": "Nace la escuela", "text": "El Padre Marino Morlin abre las clases en salones parroquiales con 15 niños." },
         { "year": "1995", "title": "Permiso Permanente", "text": "El 3 de julio de 1995 se obtiene el permiso permanente de MEDUCA." },
+        { "year": "2013", "title": "Nuevos edificios y nueva administración", "text": "Con nuevos edificios y una nueva administración, dirigida por el director del plantel, el Magíster Nelvin Babacaris, y el Delegado Episcopal, P. Jorge Rivera Rodríguez." },
         { "year": "Hoy", "title": "Referencia en Don Bosco", "text": "766 estudiantes y bachilleratos consolidados bajo el Mgtr. Nelvin Babacaris." }
       ]
     },
@@ -154,7 +156,8 @@
         { "year": "1984", "title": "Capilla María Auxiliadora", "text": "Los inicios ligados a la Capilla María Auxiliadora." },
         { "year": "1987", "title": "Nace la escuela", "text": "El Padre Marino Morlin abre las clases con 15 niños en Prekínder y Kínder." },
         { "year": "1989", "title": "Permiso provisional", "text": "El 1 de julio de 1989 se otorga el permiso provisional." },
-        { "year": "1995", "title": "Permiso Permanente MEDUCA", "text": "El 3 de julio de 1995, bajo la Arquidiócesis de Panamá y el P. Jorge Rivera Rodríguez." },
+        { "year": "1995", "title": "Permiso Permanente MEDUCA", "text": "El 3 de julio de 1995, bajo la tutela de la Arquidiócesis de Panamá, se obtiene el permiso permanente." },
+        { "year": "2013", "title": "Nuevos edificios y nueva administración", "text": "Con nuevos edificios y una nueva administración, dirigida por el director del plantel, el Magíster Nelvin Babacaris, y el Delegado Episcopal, P. Jorge Rivera Rodríguez." },
         { "year": "Hoy", "title": "Centro bilingüe de referencia", "text": "766 estudiantes y bachilleratos consolidados bajo el Mgtr. Nelvin Babacaris." }
       ]
     }
@@ -163,24 +166,23 @@
     "hero": {
       "eyebrow": "Oferta académica",
       "title": "Un plan bilingüe para cada etapa",
-      "intro": "Desde Prekínder hasta Bachillerato, con inglés intensivo, ciencias, robótica y comercio."
+      "intro": "Desde Prekínder hasta Bachillerato, con inglés intensivo, ciencias, robótica y Comercio Bilingüe."
     },
     "explorer": {
-      "eyebrow": "Explorador de carga horaria",
-      "title": "Conoce cada nivel y sus asignaturas",
-      "intro": "Horas semanales y materias por nivel, para que tu familia sepa exactamente qué aprenderá."
+      "eyebrow": "Plan de estudios",
+      "title": "Todas las materias de cada nivel",
+      "intro": "El listado completo de materias, desde Prekínder hasta Bachillerato."
     },
     "levels": [
       {
         "id": "pre-escolar",
         "name": "Preescolar",
         "grades": "Prekínder y Kínder",
-        "hours": "36 h por semana",
         "description": "Acompañamos los primeros años con un enfoque en el desarrollo socioafectivo, cognitivo y psicomotor.",
         "tags": ["Bilingüe", "Robótica", "Inteligencia Emocional"],
         "areas": [
           { "name": "Área socioafectiva", "subjects": ["Folklore", "Religión", "Misa", "Inteligencia Emocional"] },
-          { "name": "Área cognitiva y lingüística", "subjects": ["Inglés (6h)", "Lenguaje (5h)", "Matemáticas (5h)", "Informática y Robótica (2h)"] },
+          { "name": "Área cognitiva y lingüística", "subjects": ["Inglés", "Lenguaje", "Matemáticas", "Informática y Robótica"] },
           { "name": "Área psicomotora", "subjects": ["Desarrollo motriz", "Juego dirigido"] }
         ]
       },
@@ -188,11 +190,10 @@
         "id": "primaria",
         "name": "Primaria",
         "grades": "1° a 6°",
-        "hours": "40 h por semana",
         "description": "Bases sólidas con reforzamiento intensivo de inglés y formación en valores a lo largo de los seis grados.",
-        "tags": ["Inglés intensivo 10h", "STEM", "Arte y Folklore"],
+        "tags": ["Inglés intensivo", "STEM", "Arte y Folklore"],
         "areas": [
-          { "name": "Núcleo académico", "subjects": ["Inglés (10h)", "Matemáticas (5 a 6h)", "Informática", "Robótica"] },
+          { "name": "Núcleo académico", "subjects": ["Inglés", "Matemáticas", "Informática", "Robótica"] },
           { "name": "Formación integral", "subjects": ["Folklore", "Formación Espiritual", "Expresiones Artísticas"] }
         ]
       },
@@ -200,19 +201,17 @@
         "id": "pre-media",
         "name": "Premedia",
         "grades": "7° a 9°",
-        "hours": "45 h por semana",
         "description": "Preparación intermedia que introduce al comercio y consolida el pensamiento científico y ciudadano.",
-        "tags": ["Introducción al Comercio", "Ciencias", "Inglés 10h"],
+        "tags": ["Introducción al Comercio", "Ciencias", "Inglés"],
         "areas": [
-          { "name": "Especialización", "subjects": ["Introducción al Comercio (8°)", "Introducción a la Contabilidad (9°)"] },
-          { "name": "Formación general", "subjects": ["Ciencias", "Geografía", "Historia", "Cívica", "Inglés (10h)"] }
+          { "name": "Especialización", "subjects": ["Introducción al Comercio", "Introducción a la Contabilidad"] },
+          { "name": "Formación general", "subjects": ["Ciencias", "Geografía", "Historia", "Cívica", "Inglés"] }
         ]
       },
       {
         "id": "bachillerato-comercio",
         "name": "Bachillerato en Comercio Bilingüe",
         "grades": "10° a 12°",
-        "meta": "270 h totales · 34 asignaturas",
         "description": "Formación especializada bilingüe orientada al mundo empresarial y la gestión, con práctica profesional.",
         "tags": ["Bilingüe", "Contabilidad", "Management", "Marketing"],
         "areas": [
@@ -223,11 +222,10 @@
         "id": "bachillerato-ciencias",
         "name": "Bachillerato en Ciencias",
         "grades": "10° a 12°",
-        "meta": "131 h totales · 33 asignaturas",
         "description": "Enfoque científico riguroso que prepara para la universidad y los retos del futuro.",
         "tags": ["Ciencias", "Tecnología", "Gestión Empresarial"],
         "areas": [
-          { "name": "Núcleo científico", "subjects": ["Biología (5h/sem)", "Química (5h/sem)", "Física (5h/sem)", "Matemáticas (5h/sem)", "Tecnología de la Información", "Gestión Empresarial"] }
+          { "name": "Núcleo científico", "subjects": ["Biología", "Química", "Física", "Matemáticas", "Tecnología de la Información", "Gestión Empresarial"] }
         ]
       }
     ]
@@ -243,10 +241,96 @@
       "title": "Cuatro pasos hacia la matrícula",
       "intro": "Sencillo, claro y cercano.",
       "steps": [
-        { "step": "01", "title": "Requisitos académicos y disciplinarios", "description": "Verificamos el expediente del aspirante.", "details": ["Promedio mínimo de 4.0 en Primaria", "Promedio mínimo de 3.5 por materia en Secundaria", "Expeditivo disciplinario impecable, sin marcas de R o X"] },
-        { "step": "02", "title": "Prueba psicológica y de conocimientos", "description": "Solicita el pago por la Banca en Línea de Banco General.", "details": ["$50.00 para Preescolar y Primaria", "$60.00 para Secundaria", "Nota mínima de 3.0 en el examen académico", "Nota mínima de 85 en el test psicológico"] },
-        { "step": "03", "title": "Entrega de resultados", "description": "Te comunicamos los resultados de manera oportuna.", "details": ["Resultados en 3 días hábiles", "Notificación vía telefónica"] },
-        { "step": "04", "title": "Formalización de la matrícula", "description": "Una vez aprobado, formaliza en nuestras instalaciones.", "details": ["5 días hábiles para formalizar", "Atención de lunes a viernes, de 8:00 a.m. a 2:00 p.m."] }
+        { "step": "01", "title": "Requisitos académicos y disciplinarios", "description": "Verificamos el expediente del aspirante.", "details": ["Promedio mínimo de 4.0 en Primaria", "Promedio mínimo de 3.5 por materia en Secundaria", "Historial disciplinario impecable: las R o X en el boletín descartan inmediatamente la matrícula", "Entrevista de los apoderados con el director o subdirector"] },
+        { "step": "02", "title": "Prueba psicológica y de conocimientos", "description": "Solicita el pago por la Banca en Línea de Banco General.", "details": ["$50.00 para Preescolar y Primaria", "$60.00 para Secundaria", "Para pagar: área de pagos → nombre del colegio → nombre, cédula y grado del estudiante", "El pago no se devuelve si el postulante no es aceptado", "Nota mínima de 3.0 en el examen académico", "Nota mínima de 85 en el test psicológico"] },
+        { "step": "03", "title": "Entrega de resultados", "description": "Te comunicamos los resultados de manera oportuna.", "details": ["Resultados en 3 días hábiles", "Notificación vía telefónica", "No se otorgará revisión de examen"] },
+        { "step": "04", "title": "Formalización de la matrícula", "description": "Una vez aprobado, formaliza en nuestras instalaciones.", "details": ["5 días hábiles para formalizar; de lo contrario se pierde el cupo", "Firma de contrato de matrícula", "Atención de lunes a viernes, de 8:00 a.m. a 2:00 p.m."] }
+      ]
+    },
+    "requirements": {
+      "eyebrow": "Requisitos por nivel",
+      "title": "Requisitos para cada grado",
+      "intro": "Los documentos y requisitos específicos según el nivel al que postula tu hijo o hija. La documentación debe entregarse completa.",
+      "extrasTitle": "Además, para los extranjeros",
+      "criteriaTitle": "Criterios de selección",
+      "criteria": ["Antecedentes personales", "Antecedentes académicos", "Resultados de exámenes de admisión", "Entrevista individual al acudiente"],
+      "groups": [
+        {
+          "level": "Prekínder",
+          "items": [
+            "Certificado de nacimiento escolar y cédula juvenil",
+            "Copia de pasaporte en caso de ser extranjero",
+            "Copia de registro migratorio en caso de ser extranjero",
+            "Certificado de buena salud",
+            "Dos fotos tamaño carné",
+            "Cuatro años cumplidos al inicio del año en que ingresa a Prekínder",
+            "Fotocopia de cédulas de ambos padres (para los extranjeros, copia del pasaporte de ambos padres)",
+            "Copia de tarjeta de vacunas",
+            "Informes clínicos en caso de terapias (psicólogo, neurólogo, fonoaudiólogo, psicopedagogo; anteriores y actuales)",
+            "Certificado de bautismo"
+          ]
+        },
+        {
+          "level": "Kínder",
+          "items": [
+            "Certificado de nacimiento escolar y cédula juvenil",
+            "Copia de pasaporte en caso de ser extranjero",
+            "Copia de registro migratorio en caso de ser extranjero",
+            "Certificado de buena salud",
+            "Dos fotos tamaño carné",
+            "Cinco años cumplidos al inicio del año en que ingresa a Kínder",
+            "Fotocopia de cédulas de ambos padres (para los extranjeros, copia del pasaporte de ambos padres)",
+            "Copia de tarjeta de vacunas",
+            "Informes clínicos en caso de terapias (psicólogo, neurólogo, fonoaudiólogo, psicopedagogo; anteriores y actuales)",
+            "Certificado de bautismo"
+          ]
+        },
+        {
+          "level": "1° grado",
+          "items": [
+            "Certificado de nacimiento escolar y cédula juvenil",
+            "Certificado de buena salud",
+            "Dos fotos tamaño carné",
+            "Informes clínicos en caso de terapias (psicólogo, neurólogo, fonoaudiólogo, psicopedagogo; anteriores y actuales)",
+            "Fotocopia de la cédula de ambos padres (para los extranjeros, copia del pasaporte de ambos padres)",
+            "Copia de tarjeta de vacunas",
+            "Copia del boletín de Kínder",
+            "Certificado de bautismo",
+            "Paz y salvo del colegio de procedencia"
+          ],
+          "extras": ["Copia de pasaporte", "Copia de registro migratorio", "Registros de vacunas (copia)"]
+        },
+        {
+          "level": "2° a 6° grado",
+          "items": [
+            "Certificado de nacimiento escolar y cédula juvenil",
+            "Certificado de buena salud",
+            "Dos fotos tamaño carné",
+            "Informes clínicos en caso de terapias (psicólogo, neurólogo, fonoaudiólogo, psicopedagogo; anteriores y actuales)",
+            "Fotocopia de la cédula de ambos padres (para los extranjeros, copia del pasaporte de ambos padres)",
+            "Copia de tarjeta de vacunas",
+            "Carta de conducta del colegio de donde proviene",
+            "Copia de calificaciones del año en curso y créditos originales sellados de años anteriores",
+            "Certificado de bautismo",
+            "Paz y salvo del colegio de procedencia"
+          ],
+          "extras": ["Copia de pasaporte", "Copia de registro migratorio", "Registros de vacunas (copia)", "Certificación del Ministerio de Educación de convalidación de créditos, apostillada"]
+        },
+        {
+          "level": "Secundaria (7° a 10°)",
+          "items": [
+            "Certificado de nacimiento escolar y cédula juvenil",
+            "Certificado de buena salud",
+            "Dos fotos tamaño carné",
+            "Fotocopia de las cédulas de ambos padres (para los extranjeros, copia del pasaporte de ambos padres)",
+            "Informes clínicos en caso de terapias (psicólogo, neurólogo, fonoaudiólogo, psicopedagogo; anteriores y actuales)",
+            "Carta de conducta del colegio de donde proviene",
+            "Los estudiantes de noveno grado aspirantes a décimo deberán traer copia del certificado",
+            "Copia de calificaciones del año en curso y de años anteriores",
+            "Paz y salvo del colegio de procedencia"
+          ],
+          "extras": ["Copia de pasaporte", "Copia de registro migratorio", "Registros de vacunas (copia)", "Certificación del Ministerio de Educación de convalidación de créditos, apostillada"]
+        }
       ]
     },
     "pricing": {
@@ -290,7 +374,9 @@
         { "q": "¿Cuánto tiempo tengo para formalizar la matrícula?", "a": "Una vez entregados los resultados, se cuentan con 5 días hábiles para formalizar." },
         { "q": "¿Qué horario de atención tienen para admisiones?", "a": "Atendemos de lunes a viernes, de 8:00 a.m. a 2:00 p.m., en Calle 5ta, Don Bosco." },
         { "q": "¿Desde qué edad aceptan estudiantes?", "a": "Atendemos desde Prekínder y Kínder hasta Bachillerato, con formación bilingüe en todos los niveles." },
-        { "q": "¿Cómo consulto las calificaciones?", "a": "A través de la Plataforma Académica, accesible desde el botón Plataforma Académica del menú." }
+        { "q": "¿Cómo consulto las calificaciones?", "a": "A través de la Plataforma Académica, accesible desde el botón Plataforma Académica del menú." },
+        { "q": "¿El pago de la prueba se devuelve si mi hijo no es aceptado?", "a": "No. En caso de que el postulante no sea aceptado, el valor de la prueba no se devuelve." },
+        { "q": "¿Se puede solicitar revisión del examen de admisión?", "a": "No se otorgará revisión de examen." }
       ]
     }
   },
@@ -306,12 +392,24 @@
       "intro": "Espacios, aprendizajes y encuentros.",
       "items": [
         { "caption": "Instalaciones" },
-        { "caption": "Aulas" },
-        { "caption": "Deportes" },
+        { "caption": "Actividades" },
+        { "caption": "Estudiantes" },
         { "caption": "Vida espiritual" },
         { "caption": "Arte y cultura" },
         { "caption": "Graduación" }
       ]
+    },
+    "band": {
+      "eyebrow": "Banda escolar",
+      "title": "La banda que nos hace vibrar",
+      "intro": "La banda acompaña los grandes momentos del colegio: actos cívicos, celebraciones religiosas y eventos de la comunidad.",
+      "caption": "Banda escolar"
+    },
+    "graduaciones": {
+      "eyebrow": "Graduaciones",
+      "title": "Promociones que nos llenan de orgullo",
+      "intro": "Los frutos de cada etapa: nuestros graduados y sus familias, celebrando juntos.",
+      "caption": "Graduaciones"
     },
     "video": {
       "eyebrow": "Recorrido",
