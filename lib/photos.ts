@@ -13,10 +13,10 @@ export const photos = {
 
   /* ---------- Viaje (Home) — Prekínder → Bachillerato ---------- */
   journey: [
-    "/GRADUACIONES1.jpeg",                        // Prekínder — primeros pasos
-    "/NIÑOS CARGANDO MAMPARA Y POSANDO-opt.jpg",  // Primaria — raíces firmes
-    "/actividades 2 domingo savio.jpg",           // Premedia — descubrir talentos
-    "/graduaciones kinder 6 9 12.jpg",            // Bachillerato — propósito y futuro
+    "/niños preescolar.jpg",                       // Prekínder — primeros pasos
+    "/niños primaria.jpg",                         // Primaria — raíces firmes
+    "/NIÑOS CARGANDO MAMPARA Y POSANDO-opt.jpg",   // Premedia — descubrir talentos
+    "/GRADUACIONES5.jpeg",                        // Bachillerato — propósito y futuro
   ],
 
   /* ---------- Nosotros ---------- */

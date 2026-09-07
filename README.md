@@ -98,6 +98,23 @@ journey: ["/photos/prekinder.jpg", ...],
 // etc.
 ```
 
+## 📄 Documentos descargables
+
+La página de admisiones muestra automáticamente tarjetas de descarga para los documentos cuyo archivo exista en `public/documentos/`. Actualmente están publicados los enviados por el colegio (proceso de admisión, inscripción y matrícula 2027 y diseño curricular). Para publicar uno nuevo:
+
+1. Colocar el archivo (PDF, DOCX, XLSX…) en `public/documentos/` con un nombre sin espacios ni acentos, por ejemplo:
+```
+proceso-admision-2027.docx
+formulario-inscripcion-2027.pdf
+formulario-matricula-2027.docx
+diseno-curricular-2026.xlsx
+```
+2. Registrarlo en `lib/documents.ts` con un `id` nuevo.
+3. Agregar título y descripción en `messages/es.json` y `messages/en.json` (`Admissions.documents.items`).
+4. Reconstruir el sitio en producción (`npm run build`).
+
+Si un archivo no existe, su tarjeta simplemente no aparece (no hay enlaces rotos).
+
 ## 📧 Formulario de contacto
 
 El formulario envía datos a `app/api/contact/route.ts`. Está preparado para integrar [Resend](https://resend.com/) para el envío de correos. Para activarlo:

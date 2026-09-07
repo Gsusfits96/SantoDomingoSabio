@@ -181,9 +181,9 @@
         "description": "We accompany the early years focusing on socio emotional, cognitive and motor development.",
         "tags": ["Bilingual", "Robotics", "Emotional Intelligence"],
         "areas": [
-          { "name": "Socio emotional area", "subjects": ["Folklore", "Religion", "Mass", "Emotional Intelligence"] },
-          { "name": "Cognitive and language area", "subjects": ["English", "Language", "Math", "Computing & Robotics"] },
-          { "name": "Motor area", "subjects": ["Motor development", "Guided play"] }
+          { "name": "Social-emotional area", "subjects": ["Folklore", "World Exploration", "Group Meeting", "Religion", "Emotional Intelligence", "Mass"] },
+          { "name": "Cognitive and linguistic area", "subjects": ["Language Activities", "Math", "English", "Computing and Robotics"] },
+          { "name": "Psychomotor area", "subjects": ["Playful Activities", "Physical Education", "Play and Work"] }
         ]
       },
       {
@@ -193,8 +193,9 @@
         "description": "Solid foundations with intensive English reinforcement and values formation across all six grades.",
         "tags": ["Intensive English", "STEM", "Arts & Folklore"],
         "areas": [
-          { "name": "Academic core", "subjects": ["English", "Math", "Computing", "Robotics"] },
-          { "name": "Whole child formation", "subjects": ["Folklore", "Spiritual Formation", "Arts"] }
+          { "name": "Humanities", "subjects": ["Spanish", "Religion, Morals and Values", "Social Studies", "English", "Artistic Expressions", "Spiritual Formation", "Reinforcement (1st and 2nd)"] },
+          { "name": "Science", "subjects": ["Math", "Natural Sciences"] },
+          { "name": "Technology", "subjects": ["Family and Development / Industrial Arts", "Computing", "Music", "Agriculture", "Folklore", "Physical Education"] }
         ]
       },
       {
@@ -204,8 +205,9 @@
         "description": "A middle stage that introduces business and strengthens scientific and civic thinking.",
         "tags": ["Introduction to Business", "Science", "English"],
         "areas": [
-          { "name": "Specialization", "subjects": ["Introduction to Business", "Introduction to Accounting"] },
-          { "name": "General formation", "subjects": ["Science", "Geography", "History", "Civics", "English"] }
+          { "name": "Humanities", "subjects": ["Spanish", "Religion, Morals and Values", "Geography", "History", "Civics", "English", "Artistic Expressions", "Spiritual Formation"] },
+          { "name": "Science", "subjects": ["Math", "Natural Sciences"] },
+          { "name": "Technology", "subjects": ["Family and Development / Industrial Arts", "Computing", "Music", "Folklore", "Physical Education", "Guidance (7th)", "Introduction to Business (8th)", "Introduction to Accounting (9th)"] }
         ]
       },
       {
@@ -215,7 +217,9 @@
         "description": "Specialized bilingual formation oriented to business and management, with professional practice.",
         "tags": ["Bilingual", "Accounting", "Management", "Marketing"],
         "areas": [
-          { "name": "Featured subjects", "subjects": ["Computer Business Application", "Business Accounting II & III", "Business Management & Human Resources", "Office Management", "Marketing", "Professional Practice"] }
+          { "name": "Humanities", "subjects": ["Spanish (language and communication)", "English (language and communication)", "Physical Geography", "Human, Political and Economic Geography", "Geography of Panama", "Modern and Post-Modern History", "History of Panama", "History of Relations between Panama and the U.S.", "Civics III", "Ethics, Morals, Values and Human Relations", "Fine Arts", "Spiritual Formation"] },
+          { "name": "Science", "subjects": ["Math", "Physical Education and Comprehensive Health"] },
+          { "name": "Technology", "subjects": ["Information Technology", "Computer Business Application", "Administration", "Accounting I", "Business Accounting II", "Business Accounting III", "Marketing and Advertising", "Tourism Business Management", "Business Management and Human Resources", "Office Management", "Labor and Commercial Foundations", "Professional Practice"] }
         ]
       },
       {
@@ -225,7 +229,9 @@
         "description": "A rigorous scientific track that prepares students for college and the future.",
         "tags": ["Science", "Technology", "Business Management"],
         "areas": [
-          { "name": "Science core", "subjects": ["Biology", "Chemistry", "Physics", "Math", "Information Technology", "Business Management"] }
+          { "name": "Humanities", "subjects": ["Spanish (language and communication)", "English (language and communication)", "Physical Geography", "Geography of Panama", "Human, Economic and Political Geography", "Modern and Post-Modern History", "History of Panama", "History of Relations between Panama and the U.S.", "Ethics, Morals, Values and Human Relations", "Fine Arts", "Civics", "Logic and Philosophy", "Spiritual Formation"] },
+          { "name": "Science", "subjects": ["Math", "Physical Education and Comprehensive Health", "Biology", "Chemistry", "Physics"] },
+          { "name": "Technology", "subjects": ["Information Technology", "Business Management and Project Formulation"] }
         ]
       }
     ]
@@ -377,6 +383,18 @@
         { "q": "How do I check grades?", "a": "Through the Academic Platform, accessible from the Academic Platform button in the menu." },
         { "q": "Is the test fee refunded if my child is not accepted?", "a": "No. If the applicant is not accepted, the test fee is not refunded." },
         { "q": "Can I request a review of the admissions exam?", "a": "No exam review will be granted." }
+      ]
+    },
+    "documents": {
+      "eyebrow": "Downloads",
+      "title": "Downloadable documents",
+      "intro": "Official forms and documents for the admissions process, ready to download and print.",
+      "download": "Download",
+      "items": [
+        { "id": "proceso", "title": "Admissions process", "description": "Steps, requirements and dates of the admissions process." },
+        { "id": "inscripcion", "title": "2027 Enrollment form", "description": "Official enrollment form for the 2027 school year." },
+        { "id": "matricula", "title": "2027 Registration form", "description": "Official registration form for the 2027 school year." },
+        { "id": "curriculum", "title": "2026 Curriculum design", "description": "Study plans and subjects by level." }
       ]
     }
   },

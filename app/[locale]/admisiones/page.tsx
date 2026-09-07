@@ -4,6 +4,7 @@ import { PageHero } from "@/components/PageHero";
 import { Reveal } from "@/components/Reveal";
 import { Eyebrow } from "@/components/ui";
 import { Accordion } from "@/components/Accordion";
+import { getAvailableDocuments } from "@/lib/documents";
 
 type Step = { step: string; title: string; description: string; details: string[] };
 type Group = { level: string; items: string[]; extras?: string[] };
@@ -16,6 +17,7 @@ type Row = {
   nota?: string;
 };
 type Gasto = { item: string; monto: string };
+type Doc = { id: string; title: string; description: string };
 
 export async function generateMetadata({
   params,
@@ -35,6 +37,16 @@ export default async function AdmissionsPage() {
   const rows = t.raw("pricing.rows") as Row[];
   const gastos = t.raw("pricing.gastos") as Gasto[];
   const faqs = t.raw("faq.items") as { q: string; a: string }[];
+
+  // Documentos descargables: solo los que tienen su archivo en public/documentos/
+  const docItems = t.raw("documents.items") as Doc[];
+  const available = getAvailableDocuments();
+  const docs = docItems
+    .filter((item) => available.some((d) => d.id === item.id))
+    .map((item) => {
+      const file = available.find((d) => d.id === item.id)!;
+      return { ...item, url: file.url, ext: file.ext };
+    });
 
   return (
     <>
@@ -133,6 +145,73 @@ export default async function AdmissionsPage() {
               </div>
             </Reveal>
           )}
+        </section>
+      )}
+
+      {/* DOCUMENTOS DESCARGABLES (aparecen cuando el PDF existe en public/documentos/) */}
+      {docs.length > 0 && (
+        <section className="mx-auto max-w-6xl px-6 py-16 sm:py-20">
+          <Reveal className="max-w-2xl">
+            <Eyebrow>{t("documents.eyebrow")}</Eyebrow>
+            <h2 className="mt-4 font-serif text-4xl font-medium leading-[1.08] tracking-tight text-ink sm:text-5xl">
+              {t("documents.title")}
+            </h2>
+            <p className="mt-4 text-lg leading-relaxed text-graphite">{t("documents.intro")}</p>
+          </Reveal>
+
+          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {docs.map((doc) => (
+              <Reveal key={doc.id}>
+                <div className="flex h-full flex-col rounded-2xl border border-black/[0.07] bg-paper p-7 shadow-soft">
+                  <div className="flex items-start justify-between">
+                    <span className="inline-flex h-11 w-11 items-center justify-center rounded-xl bg-verde-50 text-verde-700">
+                      <svg
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="1.6"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="h-5 w-5"
+                        aria-hidden="true"
+                      >
+                        <path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8l-5-5Z" />
+                        <path d="M14 3v5h5" />
+                        <path d="M9 13h6M9 17h4" />
+                      </svg>
+                    </span>
+                    <span className="inline-flex items-center rounded-full bg-sand/70 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wider text-stone">
+                      {doc.ext}
+                    </span>
+                  </div>
+                  <h3 className="mt-4 font-serif text-xl font-medium text-ink">{doc.title}</h3>
+                  <p className="mt-1.5 flex-1 text-[14.5px] leading-relaxed text-graphite">
+                    {doc.description}
+                  </p>
+                  <a
+                    href={doc.url}
+                    download
+                    className="mt-5 inline-flex w-fit items-center gap-2 rounded-full border border-verde-600/25 bg-paper/70 px-5 py-2.5 text-sm font-semibold text-verde-700 transition-all duration-300 hover:border-verde-600/50 hover:bg-verde-50"
+                  >
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="1.8"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="h-4 w-4"
+                      aria-hidden="true"
+                    >
+                      <path d="M12 3v12m0 0 4-4m-4 4-4-4" />
+                      <path d="M5 21h14" />
+                    </svg>
+                    {t("documents.download")}
+                  </a>
+                </div>
+              </Reveal>
+            ))}
+          </div>
         </section>
       )}
 

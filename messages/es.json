@@ -181,9 +181,9 @@
         "description": "Acompañamos los primeros años con un enfoque en el desarrollo socioafectivo, cognitivo y psicomotor.",
         "tags": ["Bilingüe", "Robótica", "Inteligencia Emocional"],
         "areas": [
-          { "name": "Área socioafectiva", "subjects": ["Folklore", "Religión", "Misa", "Inteligencia Emocional"] },
-          { "name": "Área cognitiva y lingüística", "subjects": ["Inglés", "Lenguaje", "Matemáticas", "Informática y Robótica"] },
-          { "name": "Área psicomotora", "subjects": ["Desarrollo motriz", "Juego dirigido"] }
+          { "name": "Área socioafectiva", "subjects": ["Folklore", "Exploración del Mundo", "Reunión de Grupo", "Religión", "Inteligencia Emocional", "Misa"] },
+          { "name": "Área cognitiva y lingüística", "subjects": ["Actividad de Lenguaje", "Matemáticas", "Inglés", "Informática y Robótica"] },
+          { "name": "Área psicomotora", "subjects": ["Actividad Lúdica", "Educación Física", "Juego y Trabajo"] }
         ]
       },
       {
@@ -193,8 +193,9 @@
         "description": "Bases sólidas con reforzamiento intensivo de inglés y formación en valores a lo largo de los seis grados.",
         "tags": ["Inglés intensivo", "STEM", "Arte y Folklore"],
         "areas": [
-          { "name": "Núcleo académico", "subjects": ["Inglés", "Matemáticas", "Informática", "Robótica"] },
-          { "name": "Formación integral", "subjects": ["Folklore", "Formación Espiritual", "Expresiones Artísticas"] }
+          { "name": "Área humanística", "subjects": ["Español", "Religión, Moral y Valores", "Ciencias Sociales", "Inglés", "Expresiones Artísticas", "Formación Espiritual", "Reforzamiento (1° y 2°)"] },
+          { "name": "Área científica", "subjects": ["Matemáticas", "Ciencias Naturales"] },
+          { "name": "Área tecnológica", "subjects": ["Familia y Desarrollo / Artes Industriales", "Informática", "Música", "Agropecuaria", "Folklore", "Educación Física"] }
         ]
       },
       {
@@ -204,8 +205,9 @@
         "description": "Preparación intermedia que introduce al comercio y consolida el pensamiento científico y ciudadano.",
         "tags": ["Introducción al Comercio", "Ciencias", "Inglés"],
         "areas": [
-          { "name": "Especialización", "subjects": ["Introducción al Comercio", "Introducción a la Contabilidad"] },
-          { "name": "Formación general", "subjects": ["Ciencias", "Geografía", "Historia", "Cívica", "Inglés"] }
+          { "name": "Área humanística", "subjects": ["Español", "Religión, Moral y Valores", "Geografía", "Historia", "Cívica", "Inglés", "Expresiones Artísticas", "Formación Espiritual"] },
+          { "name": "Área científica", "subjects": ["Matemáticas", "Ciencias Naturales"] },
+          { "name": "Área tecnológica", "subjects": ["Familia y Desarrollo / Artes Industriales", "Informática", "Música", "Folklore", "Educación Física", "Orientación (7°)", "Introducción al Comercio (8°)", "Introducción a la Contabilidad (9°)"] }
         ]
       },
       {
@@ -215,7 +217,9 @@
         "description": "Formación especializada bilingüe orientada al mundo empresarial y la gestión, con práctica profesional.",
         "tags": ["Bilingüe", "Contabilidad", "Management", "Marketing"],
         "areas": [
-          { "name": "Asignaturas destacadas", "subjects": ["Computer Business Application", "Business Accounting II y III", "Business Management y Human Resources", "Office Management", "Mercadotecnia", "Professional Practice"] }
+          { "name": "Área humanística", "subjects": ["Español (lenguaje y comunicación)", "Inglés (lenguaje y comunicación)", "Geografía Física", "Geografía Humana, Política y Económica", "Geografía de Panamá", "Historia Moderna y Post-Moderna", "Historia de Panamá", "Historia de las Relaciones entre Panamá y EE. UU.", "Cívica III", "Ética, Moral, Valores y Relaciones Humanas", "Bellas Artes", "Formación Espiritual"] },
+          { "name": "Área científica", "subjects": ["Matemáticas", "Educación Física y Salud Integral"] },
+          { "name": "Área tecnológica", "subjects": ["Tecnología de la Información", "Computer Business Application", "Administración", "Contabilidad I", "Business Accounting II", "Business Accounting III", "Mercadotecnia y Publicidad", "Gestión Empresarial Turística", "Business Management and Human Resources", "Office Management", "Fundamento Laboral y Comercial", "Professional Practice"] }
         ]
       },
       {
@@ -225,7 +229,9 @@
         "description": "Enfoque científico riguroso que prepara para la universidad y los retos del futuro.",
         "tags": ["Ciencias", "Tecnología", "Gestión Empresarial"],
         "areas": [
-          { "name": "Núcleo científico", "subjects": ["Biología", "Química", "Física", "Matemáticas", "Tecnología de la Información", "Gestión Empresarial"] }
+          { "name": "Área humanística", "subjects": ["Español (lenguaje y comunicación)", "Inglés (lenguaje y comunicación)", "Geografía Física", "Geografía de Panamá", "Geografía Humana, Económica y Política", "Historia Moderna y Post-Moderna", "Historia de Panamá", "Historia de las Relaciones entre Panamá y EE. UU.", "Ética, Moral, Valores y Relaciones Humanas", "Bellas Artes", "Cívica", "Lógica y Filosofía", "Formación Espiritual"] },
+          { "name": "Área científica", "subjects": ["Matemáticas", "Educación Física y Salud Integral", "Biología", "Química", "Física"] },
+          { "name": "Área tecnológica", "subjects": ["Tecnología de la Información", "Gestión Empresarial y Formulación de Proyecto"] }
         ]
       }
     ]
@@ -377,6 +383,18 @@
         { "q": "¿Cómo consulto las calificaciones?", "a": "A través de la Plataforma Académica, accesible desde el botón Plataforma Académica del menú." },
         { "q": "¿El pago de la prueba se devuelve si mi hijo no es aceptado?", "a": "No. En caso de que el postulante no sea aceptado, el valor de la prueba no se devuelve." },
         { "q": "¿Se puede solicitar revisión del examen de admisión?", "a": "No se otorgará revisión de examen." }
+      ]
+    },
+    "documents": {
+      "eyebrow": "Descargas",
+      "title": "Documentos para descargar",
+      "intro": "Formularios y documentos oficiales del proceso de admisión, listos para descargar e imprimir.",
+      "download": "Descargar",
+      "items": [
+        { "id": "proceso", "title": "Proceso de admisión", "description": "Pasos, requisitos y fechas del proceso de admisión." },
+        { "id": "inscripcion", "title": "Formulario de inscripción 2027", "description": "Formulario oficial de inscripción para el año escolar 2027." },
+        { "id": "matricula", "title": "Formulario de matrícula 2027", "description": "Formulario oficial de matrícula para el año escolar 2027." },
+        { "id": "curriculum", "title": "Diseño curricular 2026", "description": "Planes de estudio y asignaturas por nivel." }
       ]
     }
   },
