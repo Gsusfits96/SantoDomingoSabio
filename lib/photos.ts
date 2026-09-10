@@ -27,7 +27,7 @@ export const photos = {
   gallery: [
     "/portada domingo savio instalaciones.webp", // Instalaciones
     "/actividades 2 domingo savio.jpg", // Actividades
-    "/IMG-20260710-WA0078.jpg", // Estudiantes
+    "/ALUMNOS Y PROFESORES DOMINGO SAVIO.jpg", // Estudiantes
     "/iglesia santo domingo savio-opt.jpg", // Vida espiritual
     "/actividades domingo savio.jpg", // Arte y cultura
     "/GRADUACIONES PORTADA.jpeg", // Graduación
