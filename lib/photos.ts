@@ -16,7 +16,7 @@ export const photos = {
     "/niños preescolar.jpg",                       // Prekínder — primeros pasos
     "/niños primaria.jpg",                         // Primaria — raíces firmes
     "/NIÑOS CARGANDO MAMPARA Y POSANDO-opt.jpg",   // Premedia — descubrir talentos
-    "/GRADUACIONES5.jpeg",                        // Bachillerato — propósito y futuro
+    "/GRADUACIONES2.jpeg",                        // Bachillerato — propósito y futuro
   ],
 
   /* ---------- Nosotros ---------- */
