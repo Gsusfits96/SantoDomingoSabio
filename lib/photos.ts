@@ -9,7 +9,7 @@ export const photos = {
   hero: "/escuela santodomingosavio hero.webp",
 
   /* ---------- Home ---------- */
-  homeIntro: "/GRADUACIONES PORTADA.jpeg",
+  homeIntro: "/ALUMNOS Y PROFESORES DOMINGO SAVIO.jpg",
 
   /* ---------- Viaje (Home) — Prekínder → Bachillerato ---------- */
   journey: [
