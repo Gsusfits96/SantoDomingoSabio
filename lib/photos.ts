@@ -9,14 +9,14 @@ export const photos = {
   hero: "/escuela santodomingosavio hero.webp",
 
   /* ---------- Home ---------- */
-  homeIntro: "/GRADUACIONES5.jpeg",
+  homeIntro: "/GRADUACIONES2.jpeg",
 
   /* ---------- Viaje (Home) — Prekínder → Bachillerato ---------- */
   journey: [
     "/niños preescolar.jpg",                       // Prekínder — primeros pasos
     "/niños primaria.jpg",                         // Primaria — raíces firmes
     "/NIÑOS CARGANDO MAMPARA Y POSANDO-opt.jpg",   // Premedia — descubrir talentos
-    "/GRADUACIONES2.jpeg",                        // Bachillerato — propósito y futuro
+    "/GRADUACIONES5.jpeg",                        // Bachillerato — propósito y futuro
   ],
 
   /* ---------- Nosotros ---------- */
